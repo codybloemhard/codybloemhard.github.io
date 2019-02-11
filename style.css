@@ -115,9 +115,20 @@ p{
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: bold;
+    font-size: 22px;
     border: 2px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 10px;
+    border-spacing: 50px;
+    transition: 0.5s;
+}
+
+.button:hover{
+    border: 4px;
     border-style: solid;
     border-color: white;
+    letter-spacing: 6px;
 }
 
 li .yes{
