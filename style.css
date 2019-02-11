@@ -16,11 +16,15 @@ body, html{
     font-weight: 400;
     line-height: 1.8em;
     color: #666;
+    background: black;
 }
 
-.bimg0, .bimg1, .bimg2{
+#landing-img{
+    min-height: 100%;
+}
+
+.parallax-img{
     position: relative;
-    opacity: 0.70;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,28 +32,20 @@ body, html{
 }
 
 .bimg0{
-    background-image:url('img/img0.jpeg');
-    min-height: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/img0.jpeg');
 }
 
 .bimg1{
-    background-image:url('img/img1.jpeg');
-    min-height: 400px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/img1.jpeg');
 }
 
 .bimg2{
-    background-image:url('img/img2.jpeg');
-    min-height: 400px;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/img2.jpeg');
 }
 
-.section{
-    text-align: center;
-    padding: 50px 80px;
-}
-
-.section-std{
-    background-color: #333;
-    color: #ddd;
+.divider{
+    background-color: #fff;
+    height: 3px;
 }
 
 .btext{
@@ -57,9 +53,25 @@ body, html{
     top: 50%;
     width: 100%;
     text-align: center;
-    color:#ddd;
+    color: #fff;
     font-size: 32px;
     letter-spacing: 8px;
     text-transform: uppercase;
+    filter: none;
+}
 
+.section{
+    padding: 50px 80px;
+}
+
+h2{
+    padding: 0px 0px 25px 0px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+p{
+    color: #ddd;
 }
