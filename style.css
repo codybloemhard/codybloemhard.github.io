@@ -1,40 +1,65 @@
-body{
-    width: 100%;
+*{
     margin: 0;
     padding: 0;
-    background-color: #111;
-    color: #eee;
-    font-family: monospace;
 }
 
-.center{
-    margin: 0 auto;
-    display: inline-block;
+@media(max-width:568px){
+    .bimg0, .bimg1, .bimg2{
+        background-attachment: scroll;
+    }
+}
+
+body, html{
+    height: 100%;
+    font-size: 16px;
+    font-family: "Monospace";
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.bimg0, .bimg1, .bimg2{
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bimg0{
+    background-image:url('img/img0.jpeg');
+    min-height: 100%;
+}
+
+.bimg1{
+    background-image:url('img/img1.jpeg');
+    min-height: 400px;
+}
+
+.bimg2{
+    background-image:url('img/img2.jpeg');
+    min-height: 400px;
 }
 
 .section{
-    margin: 0 auto;
-    width: 80%;
     text-align: center;
+    padding: 50px 80px;
 }
 
-#bar{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    width: 100%;
-    background-color: #222;
-    font-size: 32pt;
-    text-align: center;
-}
-
-#bar a:link, a:visited {
-    display: inline-block;
-    padding: 20px;
-    text-aligh: center;
-    text-decoration: none;
-}
-
-#bar a:hover, a:active {
+.section-std{
     background-color: #333;
+    color: #ddd;
+}
+
+.btext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color:#ddd;
+    font-size: 32px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+
 }
