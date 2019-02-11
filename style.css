@@ -54,14 +54,16 @@ body, html{
     width: 100%;
     text-align: center;
     color: #fff;
-    font-size: 32px;
-    letter-spacing: 8px;
+    font-size: 48px;
+    letter-spacing: 12px;
     text-transform: uppercase;
     filter: none;
 }
 
 .section{
     padding: 50px 80px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 h2{
@@ -70,8 +72,10 @@ h2{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
+    font-size: 32px
 }
 
 p{
     color: #ddd;
+    font-size: 22px;
 }
