@@ -17,6 +17,7 @@ body, html{
     line-height: 1.8em;
     color: #666;
     background: black;
+    text-align: center;
 }
 
 #landing-img{
@@ -64,6 +65,13 @@ body, html{
     padding: 50px 80px;
     max-width: 1200px;
     margin: 0 auto;
+    text-shadow: 1px 1px #000;
+}
+
+.shrink{
+    display: inline-block;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 h2{
@@ -72,10 +80,50 @@ h2{
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
-    font-size: 32px
+    font-size: 32px;
 }
 
 p{
     color: #ddd;
     font-size: 22px;
+}
+
+.para{
+    text-align: left;
+}
+
+.section .thicc{
+    color: #fff;
+    font-weight: bold;
+}
+
+.section ul{
+    display: inline-block;
+    text-align: left;
+    font-size: 22px;
+    color: #ddd;
+    list-style: none;
+    width: auto;
+    margin: 0 auto;
+}
+
+.button{
+    padding: 15px;
+    background: transparent;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: bold;
+    border: 2px;
+    border-style: solid;
+    border-color: white;
+}
+
+li .yes{
+    color: #afa;
+}
+
+li .nah{
+    color: #faa;
 }
