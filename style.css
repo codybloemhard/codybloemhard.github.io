@@ -3,7 +3,10 @@
     padding: 0;
 }
 
-@media(max-width:568px){
+@media(max-width:800px){
+    html{
+        min-width: 800px;
+    }
     .bimg0, .bimg1, .bimg2{
         background-attachment: scroll;
     }
@@ -47,18 +50,6 @@ body, html{
 .divider{
     background-color: #fff;
     height: 3px;
-}
-
-.btext{
-    position: absolute;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    font-size: 48px;
-    letter-spacing: 12px;
-    text-transform: uppercase;
-    filter: none;
 }
 
 .section{
@@ -137,4 +128,51 @@ li .yes{
 
 li .nah{
     color: #faa;
+}
+
+.grid-landing{
+    display: grid;
+    grid-column-gap: 0px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    line-height: 100%;
+}
+
+.grid-landing span{
+    display: table;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.grid-landing h1{
+    text-align: center;
+    color: #fff;
+    font-size: 58px;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.grid-landing h2{
+    text-align: center;
+    color: #ddd;
+    font-size: 32px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.grid-landing h3{
+    text-align: center;
+    color: #fff;
+    font-size: 64px;
+    
+    display: table-cell;
+    vertical-align: middle;
 }
