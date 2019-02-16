@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
 }
-
+/*dynamicness*/
 @media(max-width:800px){
     html{
         min-width: 800px;
@@ -22,7 +22,8 @@ body, html{
     background: black;
     text-align: center;
 }
-
+/*GLOBAL LAYOUT*/
+/*fullscreen image*/
 #landing-img{
     min-height: 100%;
 }
@@ -34,7 +35,7 @@ body, html{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/*here all different background images*/
 .bimg0{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/img0.jpeg');
 }
@@ -97,7 +98,7 @@ p{
     width: auto;
     margin: 0 auto;
 }
-
+/*SIMPLE BUTTON*/
 .button{
     padding: 15px;
     background: transparent;
@@ -121,7 +122,7 @@ p{
     border-color: white;
     letter-spacing: 6px;
 }
-
+/*ABOUT SITE*/
 li .yes{
     color: #afa;
 }
@@ -129,7 +130,8 @@ li .yes{
 li .nah{
     color: #faa;
 }
-
+/*ALL GRID STUFF*/
+/*landing*/
 #grid-landing{
     display: grid;
     grid-column-gap: 0px;
@@ -170,7 +172,7 @@ li .nah{
     color: #fff;
     font-size: 64px;
 }
-
+/*about*/
 #grid-about {
     display: inline-grid;
     grid-column-gap: 0px;
@@ -183,7 +185,28 @@ li .nah{
 
 .item1 { grid-area: left; }
 .item2 { grid-area: right; }
+/*skills*/
+#grid-skills {
+    display: inline-grid;
+    grid-column-gap: 0px;
+    grid-template-areas: 
+    'left right'
+    'left right';
+}
 
+#grid-skills div{
+    padding: 10px;
+}
+
+#grid-skills .subsec{
+    text-align: right;
+    text-transform: uppercase;
+}
+
+#grid-skills .content{
+    text-align: left;
+}
+/*ALL FANCY BUTTON STUFF*/
 /*Icon buttons: taken from: https://codepen.io/ameyraut/full/yfzog/ and modified*/
 .social-icons .fa {
     font-size: 4em;
