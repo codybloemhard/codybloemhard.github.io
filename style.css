@@ -50,6 +50,11 @@ body, html{
 
 .divider{
     background-color: #fff;
+    height: 4px;
+}
+
+.divider-sub{
+    background-color: #ccc;
     height: 3px;
 }
 
@@ -73,6 +78,10 @@ h2{
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 32px;
+}
+
+.nopad {
+    padding: 0px;
 }
 
 p{
@@ -204,6 +213,27 @@ li .nah{
 }
 
 #grid-skills .content{
+    text-align: left;
+}
+
+/*projects*/
+#grid-project {
+    display: inline-grid;
+    grid-column-gap: 0px;
+    grid-template-columns: 50%;
+    grid-template-areas: 'left right';
+}
+
+#grid-project div{
+    padding: 10px;
+}
+
+#grid-project h2 {
+    text-align: left;
+}
+
+#grid-project h3{
+    color: #eee;
     text-align: left;
 }
 /*ALL FANCY BUTTON STUFF*/
