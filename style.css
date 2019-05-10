@@ -37,19 +37,31 @@ body, html{
 }
 /*here all different background images*/
 .bimg0{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/balls.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/wide-janitor.jpeg');
 }
 
 .bimg1{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/landscape.png');
 }
 
-.bimg2{
+.bimg-rice0{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rice0.png');
 }
 
-.bimg3{
+.bimg-rice1{
     background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rice1.png');
+}
+
+.bimg-balls{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/balls.png');
+}
+
+.bimg-pacman{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/pacman1.png');
+}
+
+.bimg-pplanner{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/pplanner-bg.png');
 }
 
 .divider{
@@ -111,6 +123,11 @@ p{
     width: auto;
     margin: 0 auto;
 }
+
+.thumb{
+    border:2px solid #ccc;
+}
+
 /*SIMPLE BUTTON*/
 .button{
     padding: 15px;
