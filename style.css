@@ -37,7 +37,7 @@ body, html{
 }
 /*here all different background images*/
 .bimg-head{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/balls.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.png');
 }
 
 .bimg0{
@@ -65,7 +65,7 @@ body, html{
 }
 
 .bimg-balls{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/balls.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.png');
 }
 
 .bimg-pacman{
