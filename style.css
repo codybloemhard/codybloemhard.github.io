@@ -57,7 +57,7 @@ body, html{
 }
 
 .bimg-rice0{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rice0.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.png');
 }
 
 .bimg-rice1{
@@ -69,11 +69,11 @@ body, html{
 }
 
 .bimg-pacman{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/pacman1.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.png');
 }
 
 .bimg-pplanner{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/pplanner-bg.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.png');
 }
 
 .bimg-prvrij{
@@ -125,7 +125,7 @@ h2{
 }
 
 p{
-    color: #ddd;
+    color: #eee;
     font-size: 22px;
 }
 
@@ -142,7 +142,7 @@ p{
     display: inline-block;
     text-align: left;
     font-size: 22px;
-    color: #ddd;
+    color: #eee;
     list-style: none;
     width: auto;
     margin: 0 auto;
