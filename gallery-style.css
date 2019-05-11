@@ -1,0 +1,29 @@
+body{
+    margin: 5px;
+    background-color: #000;
+}
+/*dynamicness*/
+@media(max-width:800px){
+    html{
+        min-width: 800px;
+    }
+}
+
+img{
+    width: 100%;
+}
+
+.grid-two {
+    width: 100%;
+    display: inline-grid;
+    grid-column-gap: 0px;
+    grid-template-columns: 50%;
+    grid-template-areas: 'left right';
+}
+
+.item1 { grid-area: left; }
+.item2 { grid-area: right; }
+
+.grid-two img{
+    width: 100%;
+}
