@@ -1,8 +1,346 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cody Bloemhard</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
     <body>
-        <h1>Henlo Frens!</h1>
-        <img src="frog.png">
+        <div id="landing-img" class="parallax-img bimg-head">
+            <div id="grid-landing">
+                <div class="grid-item"></div>
+                <div class="grid-item"><span><h1>cody bloemhard</h1></span></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"><span><h2>computer science student</h2></span></div>
+                <div class="grid-item"><span><h3>&#x2193;</h3></span></div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="parallax-img bimg0">
+            <div class="section">
+                <h2>about</h2>
+                <div id="grid-about">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/me.jpg" width=200px>
+                    </div>
+                    <div class="grid-item">
+                        <div class="para">
+                            <p><span class="thicc">Name: </span>Cody Bloemhard</p>
+                            <p><span class="thicc">Occupation: </span>CS Student, Utrecht University</p>
+                            <p><span class="thicc">Interests: </span>Programming, Art, Computer Science</p>
+                            <p><span class="thicc">Born: </span>1998</p>
+                            <p><span class="thicc">Location: </span>Utrecht, The Netherlands</p>
+                            <p><span class="thicc">Summary: </span></p>
+                            <p>
+                                I have enjoyed programming since i was young. I used to make games in my 
+                                free time. I studied Game Development at the University of the Arts Utrecht (HKU)
+                                for a year before i decided to study Computer Science at Utrecht University
+                                I have made all kinds of things like 2D games, 3D games, game engines, 
+                                graphics, experimental prototypes, interactive electronic devices, 
+                                AI's, procedurally generated content and terminal applications.
+                                I support the philosophy, use and development of free open source software.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="parallax-img bimg1">
+            <div class="section">
+                <h2>contact</h2>
+                <div class="shrink social-icons icon-circle icon-rotate">
+                    <a href="https://github.com/ocdy1001" target="_blank"><i class="fa fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/codybloemhard" target="_blank"><i class="fa fa-linkedin"></i></a>
+                    <a href="mailto:cblmhrd@live.nl" target="_blank"><i class="fa fa-envelope" target="_blank"></i></a>
+                    <a href="https://www.youtube.com/channel/UCTe3P1jwBdO501NNRIs5zsw" target="_blank"><i class="fa fa-youtube"></i></a>
+                    <a href="https://github.com/ocdy1001/LinuxRice" target="_blank"><i class="fa fa-linux" target="_blank"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+        
+        <div class="parallax-img bimg2">
+            <div class="section">
+                <h2>skills</h2>
+                <div id="grid-skills">
+                    <div class="subsec">
+                        <p><span class="thicc">programming languages</span></p>
+                    </div>
+                    <div class="content">
+                        <p>C#, Rust, C++, Java, Python, Haskell, C</p>
+                    </div>
+                    <div class="subsec">
+                        <p><span class="thicc">other languages</span></p>
+                    </div>
+                    <div class="content">
+                        <p>HTML, CSS, LaTeX</p>
+                    </div>
+                    <div class="subsec">
+                        <p><span class="thicc">frameworks</span></p>
+                    </div>
+                    <div class="content">
+                        <p>Unity3D, OpenGL, OpenCL, Monogame, Arduino, GameMaker</p>
+                    </div>
+                    <div class="subsec">
+                        <p><span class="thicc">editors/tools</span></p>
+                    </div>
+                    <div class="content">
+                        <p>Git, VSCodium, Vim, Visual Studio</p>
+                    </div>
+                    <div class="subsec">
+                        <p><span class="thicc">subjects</span></p>
+                    </div>
+                    <div class="content">
+                        <p>Games, Graphics, AI, procedural generation, Art</p>
+                    </div>
+                    <div class="subsec">
+                        <p><span class="thicc">os</span></p>
+                    </div>
+                    <div class="content">
+                        <p>Arch Linux, Void Linux, Windows</p>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        
+        <div class="divider"></div>
+
+        <div class="parallax-img bimg1">
+            <div class="section">
+                <h2 class="nopad">projects</h2>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-balls">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/balls.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Raytracer</h2>
+                        <h3>A cpu raytracer in C#, made with other people.</h3>
+                        <h3>Stack: C#, OpenGL</h3>
+                        <h3>Year: 2018</h3>
+                        <br>
+                        <p class="para">
+                            Made by Egor Dmitriev, Erwin Glazenburg and me.
+                            It features spheres, planes, triangles, .obj models, point lights, spotlights,
+                            stochastic area lights(soft shadows), stratisfied sampled lights, 
+                            textures, HDR skyboxes, reflection, refraction, stochastic glossy reflections, 
+                            anti-aliasing(SSAA and FXAA), multithreaded rendering, responsive rendering.
+                        </p>
+                        <br><br>
+                        <a class="button" href="https://github.com/ocdy1001/UU_Raytracer" target="_blank">source</a>
+                        <a class="button" href="gallery.html#sec-raytracer" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-rice0">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/arch.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Linux Rice</h2>
+                        <h3>My Linux configuration installed with a script.</h3>
+                        <h3>Stack: Linux, Shell, C</h3>
+                        <h3>Year: 2019</h3>
+                        <br>
+                        <p class="para">
+                            This is a script you can and it will install and configure your system to be just like mine.
+                            There is an Arch Linux and a Void Linux version.
+                            The major components are i3, dmenu, polybar, st.
+                            For dmenu and st i use my own fork.
+                        </p>
+                        <br><br>
+                        <a class="button" href="https://github.com/ocdy1001/LinuxRice" target="_blank">source</a>
+                        <a class="button" href="gallery.html#sec-rice" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-pacman">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/pacman0.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Pacman</h2>
+                        <h3>True to the original game.</h3>
+                        <h3>Stack: Haskell, Stack, Gloss</h3>
+                        <h3>Year: 2018</h3>
+                        <br>
+                        <p class="para">
+                            This game was made by Egor Dmitriev and me.
+                            It was made as a school project and a way to learn functional programming.
+                            It features the classic pacman gamemode, menus and highscores. 
+                            We tried to stay as close as possible to the original game with the gameplay
+                            and assets like sprites, music, sounds and font.
+                        </p>
+                        <br><br>
+                        <a class="button" href="https://github.com/ocdy1001/" target="_blank">source</a>
+                        <a class="button" href="gallery.html#sec-pacman" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-pplanner">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/pplanner-tumb.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>pplanner</h2>
+                        <h3>TUI/CLI Time management tool.</h3>
+                        <h3>Stack: Rust</h3>
+                        <h3>Year: 2019</h3>
+                        <br>
+                        <p class="para">
+                            A tool to help you create a good overview of your
+                            deadlines, todos, ideas, events, etc.
+                            I chose TUI over GUI, because it deals mostly with text,
+                            and the terminal is perfect for text. Also it is low effort
+                            to use as the terminal is always close to you.
+                        </p>
+                        <br><br>
+                        <a class="button" href="https://github.com/ocdy1001/PersonalPlanner" target="_blank">source</a>
+                        <a class="button" href="gallery.html#sec-pplanner" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-prvrij">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/prvrij-thumb.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Pr.Vrij</h2>
+                        <h3>A 3D experience based on our impressions on Berlin.</h3>
+                        <h3>Stack: C#, Unity3D</h3>
+                        <h3>Year: 2016</h3>
+                        <br>
+                        <p class="para">
+                            I made this with Ilse Bigler, Tariq Bakhtali and Bastiaan Burghardt.
+                            We went to Berlin and modeled the virtual world to reflect our 
+                            experience. It has elements of cycling through the city, the grey
+                            communist era buildings, the old airport and traveling using the metro.
+                            Source has been lost, only binairies for windows exist.
+                        </p>
+                        <br><br>
+                        <a class="button" href="gallery.html#sec-prvrij" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-playing">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/playing-thumb.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Generate Midi Music</h2>
+                        <h3>Learns from a midi file and than generates music.</h3>
+                        <h3>Stack: C++</h3>
+                        <h3>Year: 2017</h3>
+                        <br>
+                        <p class="para">
+                            It reads a midi file of existing music and 'learns' from it.
+                            It uses a markov chain and processes information like what notes
+                            follow each other, what chords come with notes etc.
+                        </p>
+                        <br><br>
+                        <a class="button" href="https://github.com/ocdy1001/GenerateMidiMusic" target="_blank">source</a>
+                        <a class="button" href="gallery.html#sec-genmidi" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider-sub"></div>
+
+        <div class="parallax-img bimg-worldgen">
+            <div class="section">
+                <div id="grid-project">
+                    <div class="grid-item">
+                        <img class="thumb" src="img/world-thumb.png" width=100%></a>
+                    </div>
+                    <div class="grid-item">
+                        <h2>Procedural Terrain Generation</h2>
+                        <h3>Real scale generated terrain with different biomes.</h3>
+                        <h3>Stack: C#, Unity3D</h3>
+                        <h3>Year: 2016</h3>
+                        <br>
+                        <p class="para">
+                            It aimed to present the player with kilometers of landscape on a realistic scale.
+                            So the mountains were kilometers high, as they are in real life. It has a dynamic
+                            LOD that is mulithreaded. It has a grass biome, a snow biome and a desert biome.
+                            There are also generated 3D models placed around the terrain, following the player.
+                            This includes trees, bushes, different kind of stones and cacti.
+                        </p>
+                        <br><br>
+                        <a class="button" href="https://github.com/ocdy1001/ProduceralWorld_stripped_down_unity3d" target="_blank">source</a>
+                        <a class="button" href="gallery.html#sec-genterrain" target="_blank">see more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="parallax-img bimg3">
+            <div class="section">
+                <h2>about this site</h2>
+                <div class="shrink">
+                    <p>This is a <span class="thicc">static</span> website.</p>
+                    <p>Your <span class="thicc">privacy</span> is valued.</p>
+                    <br>
+                    <ul>
+                        <li><span class="yes">&#x2714</span> Open Source</li>
+                        <li><span class="yes">&#x2714</span> Hosting: Github Pages</li>
+                        <li><span class="nah">&#x2716</span> Ads</li>
+                        <li><span class="nah">&#x2716</span> Javascript</li>
+                        <li><span class="nah">&#x2716</span> Cookies</li>
+                        <li><span class="nah">&#x2716</span> User data collection</li>
+                    </ul>
+                    <br><br><br>
+                    <a class="button" href="https://github.com/ocdy1001/ocdy1001.github.io" target="_blank">source</a>
+                    <br><br><br>
+                    <p><span class="thicc">Cody Bloemhard © 2019</span></p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
-
