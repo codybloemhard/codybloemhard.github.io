@@ -37,7 +37,7 @@ body, html{
 }
 /*here all different background images*/
 .bimg-head{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.jpg');
 }
 
 .bimg0{
@@ -45,27 +45,27 @@ body, html{
 }
 
 .bimg1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/landscape.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/landscape.jpg');
 }
 
 .bimg2{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.jpg');
 }
 
 .bimg3{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.jpg');
 }
 
 .bimg-rice0{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.jpg');
 }
 
 .bimg-rice1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rice1.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rice1.jpg');
 }
 
 .bimg-balls{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.jpg');
 }
 
 .bimg-pacman{
@@ -73,19 +73,19 @@ body, html{
 }
 
 .bimg-pplanner{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.jpg');
 }
 
 .bimg-prvrij{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/prvrij.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/prvrij.jpg');
 }
 
 .bimg-worldgen{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/world.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/world.jpg');
 }
 
 .bimg-playing{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/playing.png');
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/playing.jpg');
 }
 
 .divider{
