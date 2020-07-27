@@ -36,57 +36,20 @@ body, html{
     background-attachment: fixed;
 }
 /*here all different background images*/
-.bimg-head{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.jpg');
-}
-
-.bimg0{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/wide-janitor.jpeg');
-}
-
-.bimg1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/landscape.jpg');
-}
-
-.bimg2{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.jpg');
-}
-
-.bimg3{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.jpg');
-}
-
-.bimg-rice0{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.jpg');
-}
-
-.bimg-rice1{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/rice1.jpg');
-}
-
-.bimg-balls{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.jpg');
-}
-
-.bimg-pacman{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.png');
-}
-
-.bimg-pplanner{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.jpg');
-}
-
-.bimg-prvrij{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/prvrij.jpg');
-}
-
-.bimg-worldgen{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/world.jpg');
-}
-
-.bimg-playing{
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/playing.jpg');
-}
+.bimg-head{ background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.jpg'); }
+.bimg0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/wide-janitor.jpeg'); }
+.bimg1{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/landscape.jpg'); }
+.bimg2{ background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.jpg'); }
+.bimg3{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.jpg'); }
+.bimg-rice0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.jpg'); }
+.bimg-rice1{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice1.jpg'); }
+.bimg-balls{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/spheres-bg.jpg'); }
+.bimg-pacman{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.png'); }
+.bimg-pplanner{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.jpg'); }
+.bimg-prvrij{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/prvrij.jpg'); }
+.bimg-worldgen{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/world.jpg'); }
+.bimg-playing{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/playing.jpg'); }
+.bimg-uu_uce{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/uu-uce-bg.png'); }
 
 .divider{
     background-color: #fff;
@@ -243,7 +206,7 @@ li .nah{
 #grid-skills {
     display: inline-grid;
     grid-column-gap: 0px;
-    grid-template-areas: 
+    grid-template-areas:
     'left right'
     'left right';
 }
@@ -302,7 +265,7 @@ li .nah{
 	transition: all 0.5s ease-in-out;
 }
 
-.social-icons.icon-circle .fa{ 
+.social-icons.icon-circle .fa{
 	border-radius: 50%;
 }
 
@@ -310,7 +273,7 @@ li .nah{
 	color: #FFF;
 }
 
-.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
 	-webkit-transform: scale(1.3) rotate(360deg);
 	-moz-transform: scale(1.3) rotate(360deg);
 	-ms-transform: scale(1.3) rotate(360deg);
@@ -318,8 +281,8 @@ li .nah{
 	transform: scale(1.3) rotate(360deg);
 }
 
-.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
-.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
+.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
+.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
 .social-icons .fa-linux{background-color:#070709;}
 .social-icons .fa-envelope{background-color:#070709;}
