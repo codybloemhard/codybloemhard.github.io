@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <title>Theory Frog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cody Bloemhard</title>
+    <meta name=description content="Theory Frog: get help with music theory. Query things such as notes, chords, scales.">
+    <link rel="stylesheet" type="text/css" href="tf-rsrc/style.css">
+    <script src="tf-rsrc/web-dom.min.js"></script>
+  </head>
+  <body>
+    <div id="query-bar">
+        <div class="split">
+            <h1 class="al">Theøry Frøg</h1>
+        </div>
+        <div class="split">
+            <img src="tf-rsrc/froggu.png" class="ar">
+            <a href="https://discord.gg/fF7TJTgn" target="_blank" class = "ar">
+                <img src="tf-rsrc/discord.png" class="ar">
+            </a>
+            <a href="https://github.com/ocdy1001/theory-frog" target="_blank" class = "ar">
+                <img src="tf-rsrc/github.png" class="ar">
+            </a>
+        </div>
+        <button>Ask!</button>
+        <input type="text" value=""/>
+    </div>
+    <div id="answerblock">
+        <div id="answer"></div>
+    </div>
+    <web-dom module="tf-rsrc/theory_frog.wasm"></web-dom>
+  </body>
+</html>

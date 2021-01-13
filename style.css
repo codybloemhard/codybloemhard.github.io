@@ -252,33 +252,33 @@ li .nah{
 }
 
 .social-icons .fa {
-	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	text-align: center;
-	color: #FFF;
-	color: rgba(255, 255, 255, 0.8);
-	-webkit-transition: all 0.5s ease-in-out;
-	-moz-transition: all 0.5s ease-in-out;
-	-ms-transition: all 0.5s ease-in-out;
-	-o-transition: all 0.5s ease-in-out;
-	transition: all 0.5s ease-in-out;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFF;
+    color: rgba(255, 255, 255, 0.8);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
 .social-icons.icon-circle .fa{
-	border-radius: 50%;
+    border-radius: 50%;
 }
 
 .social-icons .fa:hover, .social-icons .fa:active {
-	color: #FFF;
+    color: #FFF;
 }
 
 .social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
-	-webkit-transform: scale(1.3) rotate(360deg);
-	-moz-transform: scale(1.3) rotate(360deg);
-	-ms-transform: scale(1.3) rotate(360deg);
-	-o-transform: scale(1.3) rotate(360deg);
-	transform: scale(1.3) rotate(360deg);
+    -webkit-transform: scale(1.3) rotate(360deg);
+    -moz-transform: scale(1.3) rotate(360deg);
+    -ms-transform: scale(1.3) rotate(360deg);
+    -o-transform: scale(1.3) rotate(360deg);
+    transform: scale(1.3) rotate(360deg);
 }
 
 .social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}

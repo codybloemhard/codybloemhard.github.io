@@ -1,0 +1,102 @@
+body, html{
+    font-family: "Monospace";
+    background: #070707;
+    line-height: 1.8em;
+    padding: 0;
+    margin: 0;
+    text-indent: 0;
+}
+
+.al{
+    text-align: left;
+    padding-left: 25px;
+}
+
+.ar{
+    text-align: right;
+    padding-right: 50px;
+}
+
+.split{
+    width: 45%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+h1{
+    color: #FFF;
+    font-size: 64px;
+    margin: 35px 0px;
+    padding: 0;
+    line-height: 0;
+}
+
+img.ar{
+    margin: 8px 0px 0px 0px;
+    padding: 0;
+    border-radius: 50%;
+    width: 80px;
+    heigth: 80px;
+    float: left;
+}
+
+a.ar{
+    padding: 0;
+    margin: 0px 10px;
+    float: right;
+    display: inline-block;
+}
+
+#query-bar{
+    width: 100%;
+    padding: 0px 15px 15px 15px;
+    margin: 0px;
+    background-image: url('header.png');
+    display: inline-block;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    color: #DDD;
+    background: #111111;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    text-indent: 10px;
+}
+
+button{
+    width: 10%;
+    padding: 10px;
+    color: #DDD;
+    background: #111111;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-size: 22px;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+}
+
+#answerblock{
+    padding: 30px;
+    margin: 0px;
+}
+
+#answer p{
+    margin: 0px;
+    color: #EEE;
+    font-size: 22px;
+}
