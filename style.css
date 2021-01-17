@@ -37,19 +37,19 @@ body, html{
 }
 /*here all different background images*/
 .bimg-head{ background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.webp'); }
-.bimg0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/wide-janitor.jpeg'); }
+.bimg0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/wide-janitor.webp'); }
 .bimg1{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/landscape.webp'); }
 .bimg2{ background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.webp'); }
 .bimg3{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.webp'); }
 .bimg-rice0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.webp'); }
 .bimg-rice1{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice1.webp'); }
 .bimg-balls{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/spheres-bg.webp'); }
-.bimg-pacman{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.png'); }
+.bimg-pacman{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.webp'); }
 .bimg-pplanner{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.webp'); }
 .bimg-prvrij{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/prvrij.webp'); }
 .bimg-worldgen{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/world.webp'); }
 .bimg-playing{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/playing.webp'); }
-.bimg-uu_uce{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/uu-uce-bg.png'); }
+.bimg-uu_uce{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/uu-uce-bg.webp'); }
 
 .divider{
     background-color: #fff;
@@ -147,6 +147,18 @@ li .yes{
 li .nah{
     color: #faa;
 }
+
+.list{
+    list-style-type: none;
+}
+
+.list a{
+    color: hotpink;
+    text-decoration: none;
+    font-size: 22px;
+    line-height: 40px;
+}
+
 /*ALL GRID STUFF*/
 /*landing*/
 #grid-landing{
