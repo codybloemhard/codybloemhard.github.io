@@ -33,6 +33,12 @@ h1{
     line-height: 0;
 }
 
+h2{
+    color: #DDD;
+    padding: 20px;
+    margin: 0px;
+}
+
 img.ar{
     margin: 8px 0px 0px 0px;
     padding: 0;
@@ -49,6 +55,11 @@ a.ar{
     display: inline-block;
 }
 
+a.ar img{
+    width: 40px;
+    height: 40px;
+}
+
 #query-bar{
     width: 100%;
     padding: 0px 15px 15px 15px;
@@ -56,6 +67,7 @@ a.ar{
     background-image: url('header.png');
     display: inline-block;
     text-align: center;
+    border-bottom: 1px solid white;
 }
 
 input{
@@ -91,12 +103,28 @@ button{
 }
 
 #answerblock{
-    padding: 30px;
+    padding: 0px;
     margin: 0px;
 }
 
+.piece{
+    background-color: #151215;
+    border: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+}
+
 #answer p{
-    margin: 0px;
+    margin: 0px 0px 0px 20px;
     color: #EEE;
+    font-size: 22px;
+}
+
+#answer a{
+    margin: 0px 0px 0px 20px;
+    color: #8E8;
     font-size: 22px;
 }
