@@ -42,7 +42,6 @@ body, html{
 .bimg2{ background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.webp'); }
 .bimg3{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.webp'); }
 .bimg-rice0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.webp'); }
-.bimg-rice1{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice1.webp'); }
 .bimg-balls{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/spheres-bg.webp'); }
 .bimg-pacman{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.webp'); }
 .bimg-pplanner{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.webp'); }
