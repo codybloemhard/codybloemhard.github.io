@@ -138,6 +138,9 @@ OwnerId=76561198128745054
 
 - I wanted to complete the game
 - One should not waste sigificant amounts of time increasing arbitrary counters online
+  - Ironic since it still took like 6 hours to get done
+    - But you can do other things while doing it
+      - Only idiots write this much nested bulletpoints
 - No other players are affected, just set a password and do your thing in isolation
 - Why not
 
