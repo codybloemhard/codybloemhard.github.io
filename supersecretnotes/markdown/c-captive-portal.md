@@ -1,37 +1,38 @@
-# On enumerated file names
+# Problems using a different captive portal to avoid connectivitycheck.gstatic.com tracking
 
 ## Problem
 
-Sometimes I want files to have an order, like images for example. I will preface the file name with a number e.g. `0-bug.png`, `1-fixed.png`.
-But this breaks when you go over 9:
-```
-0-spheres.png                              18-brightness-illusion.png
-1-bug.png                                  2-spheres-aa4.png
-10-whitted.png                             3-bug.png
-11-gpu-tris-bug.png                        4-float-addition-bug.png
-12-gpu-pathtracing-skylight.png            5-float-addition-bug.png
-13-absorption-dielectrics-path-gpu.png     6-float-addition-bug.png
-14-diamond-teapot-gpu-path.png             7-float-addition-bug.png
-15-1B-tris-10k-water-dragons.png           8-float-addition-bug.png
-16-bright-sky-rough-copper.png             9-float-addition-bug.png
-17-linear-aces-hable-tonemapping-test.png
-```
+Everytime you connect your phone to a network you android device will ping `connectivitycheck.gstatic.com` to see if it has internet access, if not it will launch the captive portal.
+In order not to ping the google service every time you connect one can venture to change the settings.
 
 ## Solution
 
-Now I try out switching from team numeric to team alpha:
+Following mental outlaw's [tutorial](https://www.youtube.com/watch?v=E1U5qoiR1fM), i changed the captive portal url's:
 ```
-a-spheres.png             h-float-addition-bug.png               o-diamond-teapot-gpu-path.png
-b-bug.png                 i-float-addition-bug.png               p-1B-tris-10k-water-dragons.png
-c-spheres-aa4.png         j-float-addition-bug.png               q-bright-sky-rough-copper.png
-d-bug.png                 k-whitted.png                          r-linear-aces-hable-tonemapping-test.png
-e-float-addition-bug.png  l-gpu-tris-bug.png                     s-brightness-illusion.png
-f-float-addition-bug.png  m-gpu-pathtracing-skylight.png
-g-float-addition-bug.png  n-absorption-dielectrics-path-gpu.png
+adb devices
+adb root
+adb remount
+adb shell "settings put global captive_portal_http_url http://204.ecloud.global"
+adb shell "settings put global captive_portal_https_url https://e.foundation/net_204/"
 ```
+This works.
+After this the captive portal server seems to be null:
+```
+adb shell "settings get global captive_portal_server"
+```
+As I understand it this is what to ping to check connectivity?
+Anyway, I changed it to my own website:
+```
+adb shell "settings put global captive_portal_server codyb.xyz"
+```
+Which seems to work too.
+This minor change does not alter any of the symptoms following.
 
-It works, it sorts correctly.
-But I already have problems doing it correctly because I don't know the successor of a letter in the alphabeth from the top of my head, because I'm a dumbass.
-I will try upgrading my brain with the `git gud` strategy.
+## Problems, continued
 
-###### 29-01-2022
+I connect to my home wifi, and the internet access works.
+There are two problems, a very minor one and a bit more annoying one:
+- It tells you `"name_of_wifi" has limited connectivity`. However, the internet works fine.
+- (fixed, i was dumb, you need to confirm something on the popup (also forgot what(very clear post this(again to many nested items)))) It will disconnect often, so you will need to reconnect everytime you need to do something that requires internet connection.
+
+###### 03-01-2022
