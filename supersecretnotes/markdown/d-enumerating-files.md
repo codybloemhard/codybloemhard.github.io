@@ -33,6 +33,6 @@ This minor change does not alter any of the symptoms following.
 I connect to my home wifi, and the internet access works.
 There are two problems, a very minor one and a bit more annoying one:
 - It tells you `"name_of_wifi" has limited connectivity`. However, the internet works fine.
-- It will disconnect often, so you will need to reconnect everytime you need to do something that requires internet connection.
+- (fixed, i was dumb, you need to confirm something on the popup (also forgot what(very clear post this(again to many nested items)))) It will disconnect often, so you will need to reconnect everytime you need to do something that requires internet connection.
 
 ###### 03-01-2022
