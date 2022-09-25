@@ -11,18 +11,76 @@
 }
 
 body, html{
+    margin: 0;
+    padding: 0;
     height: 100%;
-    font-size: 16px;
+    color: #aaa;
+    font-size: 24px;
     font-family: "Monospace";
     font-weight: 400;
     line-height: 1.8em;
-    color: #666;
-    background: black;
-    text-align: center;
+    background: #fff;
+    text-align: left;
 }
 
-.section .thicc{
-    color: #fff;
+details {
+}
+
+details[open] {
+}
+
+summary {
+    color: #ccc;
+    font-weight: bold;
+    cursor: pointer;
+    list-style: '+' inside;
+}
+
+details[open] > summary {
+    list-style: '-' inside;
+}
+
+.t0{
+    background: #080808;
+}
+.t0 > summary{
+    font-size: 32px;
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.t1 {
+    background: #111111;
+}
+.t1 > summary{
+    font-size: 28px;
+    padding: 10px;
+    padding-left: 30px;
+}
+
+.t2 {
+    background: #181818;
+}
+.t2 > summary{
+    font-size: 26px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.t0 > section{
+    padding-left: 20px;
+}
+
+.t1 > section{
+    padding-left: 30px;
+}
+
+.t2 > section{
+    padding-left: 40px;
+}
+
+.thicc{
+    color: #bbb;
     font-weight: bold;
 }
 
@@ -35,9 +93,12 @@ li .nah{
 }
 
 a{
-    color: hotpink;
+    color: #aaf;
+    font-size: 24px;
+    font-family: "Monospace";
     text-decoration: none;
-    font-size: 22px;
-    line-height: 40px;
 }
 
+a:hover{
+    text-decoration: underline;
+}
