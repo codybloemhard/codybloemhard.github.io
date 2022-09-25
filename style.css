@@ -2,13 +2,11 @@
     margin: 0;
     padding: 0;
 }
+
 /*dynamicness*/
 @media(max-width:800px){
     html{
         min-width: 800px;
-    }
-    .bimg0, .bimg1, .bimg2{
-        background-attachment: scroll;
     }
 }
 
@@ -22,123 +20,12 @@ body, html{
     background: black;
     text-align: center;
 }
-/*GLOBAL LAYOUT*/
-/*fullscreen image*/
-#landing-img{
-    min-height: 100%;
-}
-
-.parallax-img{
-    position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-/*here all different background images*/
-.bimg-head{ background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/spheres-bg.webp'); }
-.bimg0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/wide-janitor.webp'); }
-.bimg1{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/landscape.webp'); }
-.bimg2{ background-image: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('img/shadertoy-planet.webp'); }
-.bimg3{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/cycclic-automata.webp'); }
-.bimg-rice0{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/rice0.webp'); }
-.bimg-balls{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/spheres-bg.webp'); }
-.bimg-pacman{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/pacman1.webp'); }
-.bimg-pplanner{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/pplanner-bg.webp'); }
-.bimg-prvrij{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/prvrij.webp'); }
-.bimg-worldgen{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/world.webp'); }
-.bimg-playing{ background-image: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/playing.webp'); }
-.bimg-uu_uce{ background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('img/uu-uce-bg.webp'); }
-
-.divider{
-    background-color: #fff;
-    height: 4px;
-}
-
-.divider-sub{
-    background-color: #ccc;
-    height: 3px;
-}
-
-.section{
-    padding: 50px 80px;
-    max-width: 1200px;
-    margin: 0 auto;
-    text-shadow: 1px 1px #000;
-}
-
-.shrink{
-    display: inline-block;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-h2{
-    padding: 0px 0px 25px 0px;
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 32px;
-}
-
-.nopad {
-    padding: 0px;
-}
-
-p{
-    color: #eee;
-    font-size: 22px;
-}
-
-.para{
-    text-align: left;
-}
 
 .section .thicc{
     color: #fff;
     font-weight: bold;
 }
 
-.section ul{
-    display: inline-block;
-    text-align: left;
-    font-size: 22px;
-    color: #eee;
-    list-style: none;
-    width: auto;
-    margin: 0 auto;
-}
-
-.thumb{
-    border:2px solid #ccc;
-}
-
-/*SIMPLE BUTTON*/
-.button{
-    padding: 15px;
-    background: transparent;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    font-weight: bold;
-    font-size: 22px;
-    border: 2px;
-    border-style: dotted;
-    border-color: white;
-    border-radius: 10px;
-    border-spacing: 50px;
-    transition: 0.5s;
-}
-
-.button:hover{
-    border: 4px;
-    border-style: solid;
-    border-color: white;
-    letter-spacing: 6px;
-}
-/*ABOUT SITE*/
 li .yes{
     color: #afa;
 }
@@ -147,154 +34,10 @@ li .nah{
     color: #faa;
 }
 
-.list{
-    list-style-type: none;
-}
-
-.list a{
+a{
     color: hotpink;
     text-decoration: none;
     font-size: 22px;
     line-height: 40px;
 }
 
-/*ALL GRID STUFF*/
-/*landing*/
-#grid-landing{
-    display: grid;
-    grid-column-gap: 0px;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    line-height: 100%;
-}
-
-#grid-landing span{
-    display: table;
-    height: 100%;
-    width: 100%;
-    text-align: center;
-}
-
-#grid-landing h1, .grid-landing h2, .grid-landing h3 {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-}
-
-#grid-landing h1{
-    color: #fff;
-    font-size: 58px;
-    letter-spacing: 16px;
-    text-transform: uppercase;
-}
-
-#grid-landing h2{
-    color: #ccc;
-    font-size: 32px;
-    letter-spacing: 8px;
-    text-transform: uppercase;
-}
-
-#grid-landing h3{
-    color: #fff;
-    font-size: 64px;
-}
-/*about*/
-#grid-about {
-    display: inline-grid;
-    grid-column-gap: 0px;
-    grid-template-areas: 'left right';
-}
-
-#grid-about .para {
-    padding: 0px 20px 0px 20px;
-}
-
-.item1 { grid-area: left; }
-.item2 { grid-area: right; }
-/*skills*/
-#grid-skills {
-    display: inline-grid;
-    grid-column-gap: 0px;
-    grid-template-areas:
-    'left right'
-    'left right';
-}
-
-#grid-skills div{
-    padding: 10px;
-}
-
-#grid-skills .subsec{
-    text-align: right;
-    text-transform: uppercase;
-}
-
-#grid-skills .content{
-    text-align: left;
-}
-
-/*projects*/
-#grid-project {
-    display: inline-grid;
-    grid-column-gap: 0px;
-    grid-template-columns: 50%;
-    grid-template-areas: 'left right';
-}
-
-#grid-project div{
-    padding: 10px;
-}
-
-#grid-project h2 {
-    text-align: left;
-}
-
-#grid-project h3{
-    color: #eee;
-    text-align: left;
-}
-/*ALL FANCY BUTTON STUFF*/
-/*Icon buttons: taken from: https://codepen.io/ameyraut/full/yfzog/ and modified*/
-.social-icons .fa {
-    font-size: 4em;
-    margin: 20px;
-}
-
-.social-icons .fa {
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    text-align: center;
-    color: #FFF;
-    color: rgba(255, 255, 255, 0.8);
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -ms-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-.social-icons.icon-circle .fa{
-    border-radius: 50%;
-}
-
-.social-icons .fa:hover, .social-icons .fa:active {
-    color: #FFF;
-}
-
-.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
-    -webkit-transform: scale(1.3) rotate(360deg);
-    -moz-transform: scale(1.3) rotate(360deg);
-    -ms-transform: scale(1.3) rotate(360deg);
-    -o-transform: scale(1.3) rotate(360deg);
-    transform: scale(1.3) rotate(360deg);
-}
-
-.social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;}
-.social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;}
-.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
-.social-icons .fa-linux{background-color:#070709;}
-.social-icons .fa-envelope{background-color:#070709;}
-.social-icons .fa-instagram{background-color:#070709;}
