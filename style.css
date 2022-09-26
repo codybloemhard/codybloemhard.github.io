@@ -46,7 +46,7 @@ details[open] > summary {
 .t0 > summary{
     font-size: 32px;
     padding: 20px;
-    padding-left: 20px;
+    padding-left: 32px;
 }
 
 .t1 {
@@ -55,7 +55,7 @@ details[open] > summary {
 .t1 > summary{
     font-size: 28px;
     padding: 10px;
-    padding-left: 30px;
+    padding-left: 48px;
 }
 
 .t2 {
@@ -64,24 +64,28 @@ details[open] > summary {
 .t2 > summary{
     font-size: 26px;
     padding: 10px;
-    padding-left: 40px;
+    padding-left: 64px;
 }
 
 .t0 > section{
-    padding-left: 20px;
+    padding-left: 32px;
 }
 
 .t1 > section{
-    padding-left: 30px;
+    padding-left: 48px;
 }
 
 .t2 > section{
-    padding-left: 40px;
+    padding-left: 64px;
 }
 
-.thicc{
+strong{
     color: #bbb;
     font-weight: bold;
+}
+
+.weak{
+    color: #555;
 }
 
 li .yes{
@@ -101,4 +105,11 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+.blocklink{
+    width: 16%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
