@@ -30,7 +30,7 @@
     experimental prototypes, interactive electronic devices, AI's, procedural generated content
     and algorithmic art.
     I support the philosophy, use and development of free and open source software.
-    My favorite programming language is Rust.
+    My favourite programming language is Rust.
 ]
 
 = Education
@@ -76,12 +76,12 @@
 
 #resume-skill-item(
   "Languages",
-  (strong("Rust"), "C#", "Python", "C/C++", "Java", "Kotlin", "Haskell", "GLSL", "HTML/CSS/JS",
+  (strong("Rust"), "C#", "Python", "C/C++", "Java", "Kotlin", "Haskell", "GLSL", "HTML/CSS",
   "Typst", "Latex"),
 )
 #resume-skill-item(
   "Frameworks/Libs",
-  ("OpenGL", "OpenCL", "Unity3D", "Bevy", "Monogame", "Arduino"),
+  ("OpenGL", "OpenCL", "Unity3D", "Docker", "Bevy", "Monogame", "Arduino"),
 )
 #resume-skill-item(
   "Miscellaneous",
@@ -162,5 +162,5 @@
   location: [#github-link("codybloemhard/UU_Raytracer")],
 )
 #resume-item[
-  - [C\#] With models, stratisfied sampled area lights, textures, stochastic glossy reflections, HDR skyboxes, multithreading.
+  - [C\#] With models, stratified sampled area lights, textures, stochastic glossy reflections, HDR skyboxes, multithreading.
 ]
