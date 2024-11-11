@@ -85,10 +85,10 @@
 )
 #resume-skill-item(
   "Miscellaneous",
-  (strong("Git"), "(neo)Vim", "Agile", "Arch/Artix/Void Linux"),
+  (strong("Git"), "(neo)Vim", "Agile", "CI", "Arch/Artix/Void Linux"),
 )
 #resume-skill-item(
-    "Spoken Languages", ("native: Nederlands", "professional: English")
+    "Spoken Languages", ("native: Nederlands", "professional: English", "learning: Japanese")
 )
 
 = Projects
