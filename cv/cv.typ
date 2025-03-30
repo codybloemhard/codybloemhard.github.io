@@ -25,9 +25,20 @@
 = Summary
 
 #resume-item[
-    I have worked on all kinds of software including 2D and 3D games, game engines, rendering engines,
-    GPGPU, command line applications, open source libraries, android apps, data processing tools,
-    experimental prototypes, interactive electronic devices, AI's, procedural generated content
+    I have worked on all kinds of software including
+    parsers,
+    open source libraries,
+    command line applications,
+    data processing tools,
+    rendering engines,
+    GPGPU,
+    game engines,
+    2D and 3D games,
+    android apps,
+    experimental prototypes,
+    interactive electronic devices,
+    AI's,
+    procedural generated content
     and algorithmic art.
     I support the philosophy, use and development of free and open source software.
     My favourite programming language is Rust.
@@ -37,14 +48,14 @@
 
 #resume-entry(
   title: "BSc in Computer Science",
-  location: "Utrecht",
+  // location: "Utrecht",
   // date: "August 2014 - May 2019",
   description: "Utrecht University",
 )
 
 #resume-entry(
     title: "Propedeuse Bachelor of Creative Media and Game Technologies, Game Development",
-    location: "Hilversum",
+    // location: "Hilversum",
     description: "HKU (University of the Arts Utrecht)",
 )
 
@@ -57,7 +68,7 @@
 
 #resume-entry(
   title: "Software Engineer",
-  location: "Utrecht",
+  // location: "Utrecht",
   // date: "2019 - Present",
   description: "Utrecht Companion to the Earth",
   title-link: "https://github.com/codybloemhard/uu-uce",
@@ -81,7 +92,7 @@
 )
 #resume-skill-item(
   "Frameworks/Libs",
-  ("OpenGL", "OpenCL", "Unity3D", "Docker", "Bevy", "Monogame", "Arduino"),
+  ("Pest", "OpenGL", "OpenCL", "Unity3D", "Docker", "Bevy", "Monogame", "Arduino"),
 )
 #resume-skill-item(
   "Miscellaneous",
@@ -92,6 +103,14 @@
 )
 
 = Projects
+
+#resume-entry(
+  title: "incodoc",
+  location: [#github-link("codybloemhard/incodoc")],
+)
+#resume-item[
+  - [Rust] A document format aiming for an improved reading experience more by doing less.
+]
 
 #resume-entry(
   title: "paclog",
@@ -157,10 +176,10 @@
   - [Rust/C\#/OpenCL] GPU accelerated pathtracer with BVH and microfacets, algorithms implemented from academic papers.
 ]
 
-#resume-entry(
-  title: "Raytracer",
-  location: [#github-link("codybloemhard/UU_Raytracer")],
-)
-#resume-item[
-  - [C\#] With models, stratified sampled area lights, textures, stochastic glossy reflections, HDR skyboxes, multithreading.
-]
+// #resume-entry(
+//   title: "Raytracer",
+//   location: [#github-link("codybloemhard/UU_Raytracer")],
+// )
+// #resume-item[
+//   - [C\#] With models, stratified sampled area lights, textures, stochastic glossy reflections, HDR skyboxes, multithreading.
+// ]
