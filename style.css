@@ -14,12 +14,12 @@ body, html{
     margin: 0;
     padding: 0;
     height: 100%;
-    color: #aaa;
+    color: #a9b1d6;
     font-size: 24px;
     font-family: "Monospace";
     font-weight: 400;
     line-height: 1.8em;
-    background: #000;
+    background: #151620;
     text-align: left;
 }
 
@@ -30,25 +30,25 @@ details[open] {
 }
 
 summary {
-    color: #aca;
+    color: #9ece6a;
     font-weight: bold;
     cursor: pointer;
     list-style: '+' inside;
 }
 
 details[open] > summary {
-    color: #caa;
+    color: #f7768e;
     list-style: '-' inside;
 }
 
 
 summary > span{
-    color: #ccc;
+    color: #c0caf5;
     font-weight: bold;
 }
 
 .t0{
-    background: #080808;
+    background: #151620;
 }
 .t0 > summary{
     font-size: 32px;
@@ -57,7 +57,7 @@ summary > span{
 }
 
 .t1 {
-    background: #111111;
+    background: #1a1b26;
 }
 .t1 > summary{
     font-size: 28px;
@@ -66,7 +66,7 @@ summary > span{
 }
 
 .t2 {
-    background: #181818;
+    background: #1a1b26;
 }
 .t2 > summary{
     font-size: 26px;
@@ -90,26 +90,26 @@ summary > span{
 }
 
 strong{
-    color: #bbb;
+    color: #c0caf5;
     font-weight: bold;
 }
 
 .weak{
-    color: #555;
+    color: #414868;
 }
 
 .yes{
-    color: #aca;
+    color: #9ece6a;
     font-weight: bold;
 }
 
 .nah{
-    color: #caa;
+    color: #f7768e;
     font-weight: bold;
 }
 
 a{
-    color: #aac;
+    color: #bb9af7;
     font-size: 24px;
     font-family: "Monospace";
     font-weight: bold;
