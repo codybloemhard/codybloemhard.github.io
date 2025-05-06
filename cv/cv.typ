@@ -30,6 +30,7 @@
     open source libraries,
     command line applications,
     data processing tools,
+    core OS interface components,
     rendering engines,
     GPGPU,
     game engines,
@@ -141,7 +142,7 @@
   location: [#github-link("codybloemhard/linux-rice")],
 )
 #resume-item[
-  - [Shell/C/...] Custom desktop environment by configuring and forking selected open source components.
+  - [Shell/C/Rust/...] Custom desktop environment by configuring and forking selected open source components.
 ]
 
 #resume-entry(

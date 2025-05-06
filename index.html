@@ -30,7 +30,7 @@ I studied Game Development at the University of the Arts Utrecht (HKU)
 for a year before i decided to study Computer Science at Utrecht University.
 I have worked on all kinds of things including 2D and 3D games, game engines,
 rendering engines, GPGPU, command line applications, open source libraries,
-parsers, transpilers,
+parsers, transpilers, core OS interface components,
 android apps, data processing tools, experimental prototypes,
 interactive electronic devices, AI's,
 procedural generated content, audio applications
@@ -121,17 +121,40 @@ My preferred programming language is Rust.
                         <p><span class="weak">Year:</span> 2019 - current</p>
                         <br>
                         <p>
-                            This is the script I use to set up my system.
+                            This is the script I use to set up my Artix Linux system.
                             It installs and configures it up from a bare TTY.
-                            There is an maintained Artix Linux version and an old Void Linux version.
-                            The major components are i3, dmenu, shapebar, st.
+                            The major components are ringwm, dmenu, shapebar and st.
                             Programs such as St, Dmenu, shapebar have patches applied and code edited.
+                            Ringwm is a bespoke window manager I wrote in rust
+                            (see <a href="#ringwm">ringwm</a>).
                             It supports live theme switching.
                         </p>
                         <a class="blocklink" target="_blank" rel="noreferrer"
                             href="https://github.com/codybloemhard/linux-rice">source</a>
                         <a class="blocklink" target="_blank" rel="noreferrer"
                             href="https://www.youtube.com/watch?v=pfnkTrT-axg">demo on youtube</a>
+                    </section>
+                </details>
+                <details class="t2", id="ringwm">
+                    <summary><span> Ringwm</span></summary>
+                    <section>
+                        <p>
+                            <span class="weak">Summary:</span>
+                            A bespoke window manager with a novel UX written in Rust with Penrose.
+                        </p>
+                        <p><span class="weak">Stack:</span> Rust</p>
+                        <p><span class="weak">Year:</span> 2024, 2025</p>
+                        <br>
+                        <p>
+                            Ringwm in based on rings and super swallowing.
+                            The screen is split up in to at most two columns; in contrast with other
+                            window managers. Each column is a ring of windows.
+                            New windows are placed in a ring and swallow the previous window on top.
+                            The goal is to be so efficient you only need a few columns and to
+                            give windows room to work with.
+                        </p>
+                        <a class="blocklink" target="_blank" rel="noreferrer"
+                            href="https://github.com/codybloemhard/ringwm">source</a>
                     </section>
                 </details>
                 <details class="t2">
@@ -522,7 +545,7 @@ My preferred programming language is Rust.
                     </p>
                 </section>
             </details>
-            <section><p><strong>Cody Bloemhard © 2024</strong></p></section>
+            <section><p><strong>Cody Bloemhard © 2025</strong></p></section>
         </details>
     </body>
 </html>
