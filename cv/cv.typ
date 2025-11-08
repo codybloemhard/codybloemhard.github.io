@@ -43,6 +43,7 @@
     and algorithmic art.
     I support the philosophy, use and development of free and open source software.
     My favourite programming language is Rust.
+    I have been programming for 10+ years and can do so without LLMs.
 ]
 
 = Education
@@ -100,10 +101,18 @@
   (strong("Git"), "(neo)Vim", "Agile", "CI", "Arch/Artix/Void Linux"),
 )
 #resume-skill-item(
-    "Spoken Languages", ("native: Nederlands", "professional: English", "learning: Japanese")
+    "Spoken Languages", ("native: Nederlands", "professional: English")
 )
 
 = Projects
+
+#resume-entry(
+  title: "ringwm",
+  location: [#github-link("codybloemhard/ringwm")],
+)
+#resume-item[
+  - [Rust] A bespoke window manager with a novel UX written in Rust with Penrose.
+]
 
 #resume-entry(
   title: "incodoc",
@@ -119,14 +128,6 @@
 )
 #resume-item[
   - [Rust] A CLI log inspection tool to query the pacman log file.
-]
-
-#resume-entry(
-  title: "editimg",
-  location: [#github-link("codybloemhard/editimg")],
-)
-#resume-item[
-  - [Rust] A scriptable image editor optimised for the tiling window manager workflow.
 ]
 
 #resume-entry(
