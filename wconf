@@ -1,0 +1,15 @@
+src: /home/cody/git/thoughts/
+dst: /home/cody/git/codybloemhard.github.io/writings/
+css: style.css
+link: https://codyb.xyz/writings/
+lang: en
+author: Cody Bloemhard
+title: The writings of Cody Bloemhard.
+description: Writings on multiple subjects.
+trim-https-prefix: true
+
+index.md, 0.1.0, enabled, 2026-03-28 Sat
+misc/fountainpen-inks.md, 0.1.0, enabled, 2026-03-28 Sat
+misc/creativity.md, 0.1.0, enabled, 2026-03-28 Sat
+math/mathematics-vs-computation.md, 0.1.0, enabled, 2026-03-28 Sat
+software/artix-arch.md, 0.1.0, enabled, 2026-03-28 Sat

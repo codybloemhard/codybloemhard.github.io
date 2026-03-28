@@ -1,0 +1,74 @@
+props {
+    ("date-rfc2822", "Sat, 28 Mar 2026 22:48:51 +0100"),
+    ("author", "Cody Bloemhard"),
+    ("date-unix", "1774734531"),
+    ("version", "0.1.0"),
+    ("initial-version-date", "2026-03-28 Sat"),
+    ("generator", "incodoc-ssg"),
+    ("lang", "en"),
+},
+nav {
+    link {
+        "./../index.incodoc",
+        "up to parent page",
+        tags {
+            "local",
+        },
+    },
+},
+section {
+    head {
+        0,
+        "Mathematics vs computation",
+    },
+    par {
+        'Doing mathematics is thinking about abstract objects and writing proofs or proof sketches.
+For example proving that there are an infinite amount of prime numbers.
+Doing a computation is following some algorithm, performing set steps usually resulting in an
+object such as a number.
+For example computing 43 + 19.
+These two are fundamentally different.',
+    },
+    par {
+        'Wikipedia (03/05/23) seems to be of the same opinion as it states:',
+    },
+    section {
+        head {
+            99,
+        },
+        par {
+            'Arithmetic … is an elementary part of mathematics that consists of the study of the properties of the traditional operations on numbers',
+        },
+        tags {
+            "blockquote",
+        },
+    },
+    par {
+        'Although in 2026 it seems to be more vague, I like the 2023 definition more.',
+    },
+    par {
+        link {
+            "https://en.wikipedia.org/wiki/Arithmetic",
+            "en.wikipedia.org/wiki/Arithmetic",
+        },
+    },
+    par {
+        'The Dutch education system and language also make this distinction.
+In elementary school you learn to add, subtract, etc.
+They call it “rekenen”, literally translated “calculate”.
+In secondary education you learn things algebra, trigonometry, etc.
+They call this “wiskunde”, translated “mathematics”.
+The activities of “calculating” and “maths” are fundamentally different.
+Mathematics is not just a harder form of calculating.',
+    },
+    par {
+        'In the English speaking world it’s all just called maths.
+Which is unfortunate in my opinion.
+On the internet I often read titles or headings like “the math of [something]” or similar.
+Usually it ends up not having any theorems or proofs and I am left disappointed.
+Another thing is the question “are you good at maths?”, which is very confusing.
+What is that supposed to mean?
+If you are good at proving theorems in a certain field?
+Or whether or not you can perform some additions and multiplications quickly and accurately?',
+    },
+},

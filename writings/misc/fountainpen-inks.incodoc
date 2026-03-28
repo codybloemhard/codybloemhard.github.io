@@ -1,0 +1,872 @@
+props {
+    ("date-rfc2822", "Sat, 28 Mar 2026 22:48:37 +0100"),
+    ("lang", "en"),
+    ("version", "0.1.0"),
+    ("author", "Cody Bloemhard"),
+    ("date-unix", "1774734517"),
+    ("generator", "incodoc-ssg"),
+    ("table-of-contents", "include"),
+    ("initial-version-date", "2026-03-28 Sat"),
+},
+nav {
+    link {
+        "./../index.incodoc",
+        "up to parent page",
+        tags {
+            "local",
+        },
+    },
+},
+section {
+    head {
+        0,
+        "Fountain pen Inks",
+    },
+    par {
+        'This is a page where I write down what I think of every fountain pen ink I wrote with.
+I use ink for purpose and focus on utility.
+I do keep an “ink journal”.
+However, everything that is important to using an ink I can say with just text.
+The ink should be a good workhorse ink.',
+    },
+    section {
+        head {
+            0,
+            "Context",
+        },
+        par {
+            'Maybe it is useful if I tell you my ink habits:',
+        },
+        par {
+            list {
+                il,
+                par {
+                    'I crack a single bottle open and write it down before buying and opening a new one.',
+                },
+                par {
+                    'I use my pens for writing, drawing and calligraphy.',
+                },
+                par {
+                    'I currently use one pen with a flex nib and one brush pen.',
+                },
+                par {
+                    'I care about the cost.',
+                },
+            },
+            'Here are qualities I look for:',
+        },
+        par {
+            list {
+                il,
+                par {
+                    'Dark enough colour.',
+                    list {
+                        il,
+                        par {
+                            'writing: must be easily readable.',
+                        },
+                        par {
+                            'drawing: must be dark enough to clearly see thin hatching.',
+                        },
+                        par {
+                            'brush: the brush spreads the ink over a larger surface. Its lightest shade must be useable.',
+                        },
+                    },
+                },
+                par {
+                    'Well behaved on various papers.',
+                    list {
+                        il,
+                        par {
+                            'should not feather and bleed through too much.',
+                        },
+                        par {
+                            'should not need fountain pen specific paper, as this is quite expensive.',
+                        },
+                    },
+                },
+                par {
+                    'Easily cleaned: must not be hard to clean out.',
+                },
+                par {
+                    'Vintage friendly is a bonus: if it’s fine in vintage pens it will be fine in any pen.',
+                },
+                par {
+                    'Well designed bottle.',
+                    list {
+                        il,
+                        par {
+                            'should not be easy to topple over.',
+                        },
+                        par {
+                            'should have a way of getting ink out the bottle into the pen when the ink level is low.',
+                        },
+                    },
+                },
+                par {
+                    'Price.',
+                    list {
+                        il,
+                        par {
+                            'should have a good eur/ml ratio.',
+                        },
+                        par {
+                            'if it is more expensive, it should have a clear feature that makes it worth it.',
+                        },
+                        par {
+                            'if bought online, shipping cost is included! no cheating.',
+                        },
+                    },
+                },
+                par {
+                    'Waterproof is a bonus but not required.',
+                },
+                par {
+                    'Shading and sheen can be nice but not required.',
+                },
+                par {
+                    'Local.',
+                    list {
+                        il,
+                        par {
+                            'bonus: bought in a local shop.',
+                            list {
+                                il,
+                                par {
+                                    'supports local economy.',
+                                },
+                                par {
+                                    'keeps alive physical shops.',
+                                },
+                                par {
+                                    'you can go on your bicycle instead of dealing with the post system.',
+                                },
+                                par {
+                                    'better for the environment.',
+                                },
+                            },
+                        },
+                        par {
+                            'bonus: brand with history. I rather buy from long standing consistent brands than the newest
+shiny brand with a million new shades with party trick effects.',
+                        },
+                        par {
+                            'bonus: EU based brand. Supports “local” economy over the cheapest overseas option.',
+                        },
+                    },
+                },
+                par {
+                    'Smell: no requirements but I WILL smell it.',
+                },
+            },
+        },
+    },
+    section {
+        head {
+            0,
+            "Inks",
+        },
+        section {
+            head {
+                0,
+                "Ranking",
+            },
+            par {
+                list {
+                    dl,
+                    par {
+                        'Pelikan 4001 Blau Schwarz',
+                    },
+                    par {
+                        'Waterman Serenity Blue',
+                    },
+                    par {
+                        'Parker Quink Blue Black',
+                    },
+                    par {
+                        'Herbin encre Éclat de Saphir',
+                    },
+                    par {
+                        'Diamine Sargasso Sea',
+                    },
+                    par {
+                        'FPR Green with Envy',
+                    },
+                },
+                'not comparable',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'Vintage Sheaffer Skrip Jet Black',
+                    },
+                    par {
+                        'Kuretake black ink cartridge',
+                    },
+                },
+            },
+        },
+        section {
+            head {
+                0,
+                "Waterman Serenity Blue",
+            },
+            par {
+                '50 ml, paid 9 euro.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'dark enough:',
+                        list {
+                            il,
+                            par {
+                                'ok for normal writing',
+                            },
+                            par {
+                                'nice dark colour for flex',
+                            },
+                            par {
+                                'ok for drawing',
+                            },
+                            par {
+                                'ok for the brush',
+                            },
+                            par {
+                                'would not want anything much lighter',
+                            },
+                        },
+                    },
+                    par {
+                        'well behaved: does not bleed and feather excessively, works on cheaper papers',
+                    },
+                    par {
+                        'cleans out easily',
+                    },
+                    par {
+                        'famously vintage friendly',
+                    },
+                    par {
+                        'good bottle:',
+                        list {
+                            il,
+                            par {
+                                'can be put on side when ink is low',
+                            },
+                            par {
+                                'nice smooth bottle threads: cap can be flung off with one finger like a nut on a screw',
+                            },
+                        },
+                    },
+                    par {
+                        'good price: 0.18 eur/ml (2023)',
+                    },
+                    par {
+                        'not waterproof',
+                    },
+                    par {
+                        'bit of sheen',
+                    },
+                    par {
+                        'bought locally in physical shop, EU based brand, made in France, historic brand but was bought out
+so it’s not really the Waterman of old',
+                    },
+                    par {
+                        'smells inky, got mouldy later on (that’s my fault probably)',
+                    },
+                },
+                'Subjective colour verdict: Nice basic blue. Not special but never wrong.',
+            },
+            par {
+                'Conclusion: great ink.',
+            },
+        },
+        section {
+            head {
+                0,
+                "Kuretake black ink cartridge",
+            },
+            par {
+                '3 of them, came free with a pen.
+Only used in brush but would fit in a platinum compatible pen.
+Most likely pigmented.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'dark enough: yes, very black. Matte for a single pass, bit shiny for more than two.',
+                    },
+                    par {
+                        'extremely well behaved: resists bleeding and feathering well',
+                    },
+                    par {
+                        'cleans out ok enough',
+                    },
+                    par {
+                        'very waterproof',
+                    },
+                    par {
+                        'no shading at all',
+                    },
+                    par {
+                        'came from Japan',
+                    },
+                    par {
+                        'Pigment does rub off, slowly staining the page it touches.',
+                    },
+                },
+                'Subjective colour verdict: nice.',
+            },
+            par {
+                'Conclusion: decent.',
+            },
+        },
+        section {
+            head {
+                0,
+                "Diamine Sargasso Sea",
+            },
+            par {
+                '1.7 ml, small sample.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'dark enough: ok, roughly the same as Serenity Blue',
+                    },
+                    par {
+                        'badly behaved:',
+                        list {
+                            il,
+                            par {
+                                'bleeds and feathers a lot on my writing paper',
+                            },
+                            par {
+                                'goes right through my sketchbook paper when flexed a bit',
+                            },
+                            par {
+                                'supposed to flow well for flex but totally not worth it',
+                            },
+                        },
+                    },
+                    par {
+                        'cleans out well enough',
+                    },
+                    par {
+                        'vintage friendly: not known to be bad but not known to be very good either',
+                    },
+                    par {
+                        'bottle: don’t know',
+                    },
+                    par {
+                        'price: don’t know, samples are more expensive',
+                    },
+                    par {
+                        'not waterproof',
+                    },
+                    par {
+                        'some sheen present',
+                    },
+                    par {
+                        'bought online, US based company, not preferred',
+                    },
+                    par {
+                        'smells ok',
+                    },
+                },
+                'Subjective colour verdict: Nice but not that different from Serenity Blue.',
+            },
+            par {
+                'Conclusion: eh, much rather have Serenity Blue.',
+            },
+        },
+        section {
+            head {
+                0,
+                "FPR Green with Envy",
+            },
+            par {
+                '1.7 ml, small sample.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'not dark enough:',
+                        list {
+                            il,
+                            par {
+                                'bit light for normal writing',
+                            },
+                            par {
+                                'doesn’t get darker with flex depending on the paper…',
+                            },
+                            par {
+                                'ok for dark spots when drawing but not for light textures',
+                            },
+                            par {
+                                'too light for brushing',
+                            },
+                        },
+                    },
+                    par {
+                        'badly behaved:',
+                        list {
+                            il,
+                            par {
+                                'bleeds and feathers as much as Sargasso Sea',
+                            },
+                            par {
+                                'really high surface tension: beads up weirdly in the sample vial',
+                            },
+                            par {
+                                'doesn’t darken up with flex on paper that works fine with other fountain pen inks',
+                            },
+                            par {
+                                'does darken up with flex on Clairefontaine but that stuff is too expensive for daily writing',
+                            },
+                        },
+                    },
+                    par {
+                        'cleans out well enough',
+                    },
+                    par {
+                        'vintage friendly: god knows',
+                    },
+                    par {
+                        'bottle: don’t know',
+                    },
+                    par {
+                        'price: don’t know, samples are more expensive',
+                    },
+                    par {
+                        'not waterproof at all, worse than the others so far',
+                    },
+                    par {
+                        'no sheen',
+                    },
+                    par {
+                        'bought online, US based company, not preferred',
+                    },
+                    par {
+                        'smells ok',
+                    },
+                },
+                'Subjective colour verdict: It’s ok, not really feeling it.',
+            },
+            par {
+                'Conclusion: almost unusable.',
+            },
+        },
+        section {
+            head {
+                0,
+                "Pelikan 4001 Blau Schwarz",
+            },
+            par {
+                '30 ml, 5.97 euro.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'dark enough:',
+                        list {
+                            il,
+                            par {
+                                'dark enough for normal writing',
+                            },
+                            par {
+                                'darkens up nicely with flex',
+                            },
+                            par {
+                                'dark enough for drawing, thin lines still pop',
+                            },
+                            par {
+                                'dark enough for brushing, but not as saturated as I expected',
+                            },
+                        },
+                    },
+                    par {
+                        'well behaved:',
+                        list {
+                            il,
+                            par {
+                                'works well on cheaper paper',
+                            },
+                            par {
+                                'holds well on my sketch book',
+                            },
+                            par {
+                                'putting a saturated nib/feed nib up does not drain the feed',
+                            },
+                            par {
+                                'easy to control feed saturation with piston',
+                            },
+                        },
+                    },
+                    par {
+                        'cleans ok:',
+                        list {
+                            il,
+                            par {
+                                'not as easy as Serenity Blue',
+                            },
+                            par {
+                                'has a slight iron gall quality',
+                            },
+                            par {
+                                'stains the metal nib a bit more, bit crusty and dries in',
+                            },
+                        },
+                    },
+                    par {
+                        'vintage friendly: maybe but the crusting is a bit worrying',
+                    },
+                    par {
+                        'bottle:',
+                        list {
+                            il,
+                            par {
+                                'not as good as Waterman bottle in terms of getting ink out',
+                            },
+                            par {
+                                'cap not as sturdy as Waterman cap and threads not as smooth',
+                            },
+                        },
+                    },
+                    par {
+                        'price: 0.198999… eur/ml (2024)',
+                    },
+                    par {
+                        'quite waterproof for an ink that is not marketed as such',
+                    },
+                    par {
+                        'no sheen but does shade nicely when flexed from the thin to the thick part',
+                    },
+                    par {
+                        'bought in local shop, old school German brand, made in Germany',
+                    },
+                    par {
+                        'smells strong: alcoholic, salty. Almost want to taste (forbidden soy sauce)',
+                    },
+                },
+                'Subjective colour verdict: Beautiful without being flashy. Blue is dark enough.
+With flex you get a deep and rich almost black but not quite black colour.
+Bit of blue shows in the thin scribes away from the thick flex line.
+More blue bleeds in as the feed gets dryer before I prime it again with the piston mechanism.',
+            },
+            par {
+                'Conclusion: Excellent ink.',
+            },
+            par {
+                'Over roughly 3 1/2 months, 30ml of this ink got me through roughly:',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        '52 A4 pages of eastern calligraphy practice',
+                    },
+                    par {
+                        '35 A4 + 19 A5 pages of western calligraphy practice',
+                    },
+                    par {
+                        '22 A5 pages of drawing',
+                    },
+                },
+            },
+        },
+        section {
+            head {
+                0,
+                "Vintage Sheaffer Skrip Jet Black",
+            },
+            par {
+                'Probably 20+ years old. God knows the price. Bottle is 60 ml.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'dark enough: very black, practically couldn’t be darker.',
+                    },
+                    par {
+                        'extremely angry and violent:',
+                        list {
+                            il,
+                            par {
+                                'goes through any paper at all',
+                            },
+                            par {
+                                'even through fountain pen specific Clairefontaine paper',
+                            },
+                        },
+                    },
+                    par {
+                        'cleans out fine',
+                    },
+                    par {
+                        'the ink is vintage but not sure I would put in in a 100 year old pen…',
+                    },
+                    par {
+                        'bottle:',
+                        list {
+                            il,
+                            par {
+                                'has a glass ink well inside',
+                            },
+                            par {
+                                'sheet metal cap, doesn’t screw very nicely but looks good',
+                            },
+                        },
+                    },
+                    par {
+                        'smells a bit dusty',
+                    },
+                },
+                'Conclusion: I don’t know whether it is so angry because it is old or because it always was that way.
+In the current shape it is not very usable.',
+            },
+        },
+        section {
+            head {
+                0,
+                "Parker Quink Blue Black",
+            },
+            par {
+                '57 ml, 9.00 euro.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'dark enough:',
+                        list {
+                            il,
+                            par {
+                                'barely dark enough for normal writing',
+                            },
+                            par {
+                                'does not darken up well with flex',
+                            },
+                            par {
+                                'bit light for drawing',
+                            },
+                            par {
+                                'just dark enough for brushing, pretty good saturation actually',
+                            },
+                        },
+                    },
+                    par {
+                        'well behaved:',
+                        list {
+                            il,
+                            par {
+                                'doesn’t work as well on cheaper paper and sketchbooks',
+                            },
+                            par {
+                                'bleeds and feathers, but not as much as Sargasso Sea',
+                            },
+                            par {
+                                'pretty strong flow, more than 4001 Blau Schwarz',
+                            },
+                            par {
+                                'putting a saturated nib/feed nib up does drain the feed',
+                            },
+                            par {
+                                'not as easy to control feed saturation with piston',
+                            },
+                            par {
+                                'when filling up, letting excess ink on the nib and feed into the bottle doesn’t work. It will keep draining pulling ink from the body. Instead I put the nib up and wipe with paper, wasting a bit of ink.',
+                            },
+                        },
+                    },
+                    par {
+                        'vintage friendly: yes',
+                    },
+                    par {
+                        'bottle:',
+                        list {
+                            il,
+                            par {
+                                'big bottle',
+                            },
+                            par {
+                                'stiff cap like Waterman',
+                            },
+                            par {
+                                'very wide mouth',
+                            },
+                            par {
+                                'stable base',
+                            },
+                        },
+                    },
+                    par {
+                        'price: 0.15789… eur/ml (2024) (very good)',
+                    },
+                    par {
+                        'very confusing whether this is marketed as ‘permanent’ but it’s not very waterproof',
+                    },
+                    par {
+                        'bought in local shop, old American brand, currently in EU, made in France',
+                    },
+                    par {
+                        'medium strong smell: almost smells like paint, makes me think about elementary school',
+                    },
+                },
+                'Over 10 months, 57 ml of this ink got me through roughly:',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        '24 A5 pages of mosly unshaded western calligraphy practice',
+                    },
+                    par {
+                        '158 A4 pages of mostly unshaded western calligraphy practice',
+                    },
+                    par {
+                        '78 A4 pages of eastern calligraphy practice',
+                    },
+                    par {
+                        '75 ~A5 pages of drawing',
+                    },
+                },
+            },
+        },
+        section {
+            head {
+                0,
+                "Herbin Encre Eclat de Saphir",
+            },
+            par {
+                '10 ml, 4.20 euro.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'not quite dark enough',
+                        list {
+                            il,
+                            par {
+                                'really on the edge of being to light for normal writing',
+                            },
+                            par {
+                                'does not darken at all with flex',
+                            },
+                            par {
+                                'too light for drawing',
+                            },
+                            par {
+                                'too light for brushing,',
+                            },
+                        },
+                    },
+                    par {
+                        'decently behaved:',
+                        list {
+                            il,
+                            par {
+                                'bleeds and feathers a bit',
+                            },
+                            par {
+                                'medium flow',
+                            },
+                            par {
+                                'medium amount of control when saturating the feed with piston',
+                            },
+                            par {
+                                'leaks back a bit of ink when filling and putting the nib to the glass',
+                            },
+                        },
+                    },
+                    par {
+                        'vintage friendly: yes',
+                    },
+                    par {
+                        'bottle:',
+                        list {
+                            il,
+                            par {
+                                'cute small bottle',
+                            },
+                            par {
+                                'stamped metal cap',
+                            },
+                            par {
+                                'narrow mouth',
+                            },
+                        },
+                    },
+                    par {
+                        'no sheen',
+                    },
+                    par {
+                        'almost no shading',
+                    },
+                    par {
+                        'not waterproof',
+                    },
+                    par {
+                        'price: 0.42 eur/ml (2025) (very bad but this is a small bottle)',
+                    },
+                    par {
+                        'bought in local shop, old French brand, made in France',
+                    },
+                    par {
+                        'medium strong smell: smells inky',
+                    },
+                },
+                'Over about 6 months (I didn’t write much), 10 ml of this ink got me through roughly:',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        '31 A4 pages of mostly unshaded western calligraphy practice',
+                    },
+                    par {
+                        '_ A4 pages of eastern calligraphy practice',
+                    },
+                    par {
+                        '1 ~A5 page of drawing',
+                    },
+                },
+            },
+        },
+        section {
+            head {
+                0,
+                "Waterman Mysterious Blue",
+            },
+            par {
+                '50 ml, 11 euro.',
+            },
+            par {
+                list {
+                    il,
+                    par {
+                        'not waterproof',
+                    },
+                    par {
+                        'price: 0.22 eur/ml (2025, up from 0.18 eur/ml in 2023)',
+                    },
+                    par {
+                        'bought in local shop, EU based brand, made in France, historic brand that was bought',
+                    },
+                    par {
+                        'medium strong smell: paint like smell',
+                    },
+                },
+                'More on this ink coming when I have used it more.',
+            },
+        },
+    },
+},

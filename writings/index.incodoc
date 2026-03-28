@@ -1,0 +1,182 @@
+props {
+    ("lang", "en"),
+    ("generator", "incodoc-ssg"),
+    ("initial-version-date", "2026-03-28 Sat"),
+    ("version", "0.1.0"),
+    ("author", "Cody Bloemhard"),
+    ("date-rfc2822", "Sat, 28 Mar 2026 22:48:12 +0100"),
+    ("date-unix", "1774734492"),
+},
+section {
+    head {
+        0,
+        "Writings",
+    },
+    par {
+        'I write things on a variety of topics that interest me.
+Many software engineers have blogs with software engineering stuff on there.
+There will be some pages on software but also on very unrelated things.
+This is also not a blog.
+The structure is not linear and each page may evolve and update as time goes.
+At any time, the page reflects what I think of something or what I thought of something when I
+last wrote about that something.',
+    },
+    section {
+        head {
+            0,
+            "Pages",
+        },
+        par {
+            'There are but a few pages for now:',
+        },
+        par {
+            list {
+                il,
+                par {
+                    'On ',
+                    link {
+                        "./math/mathematics-vs-computation.incodoc",
+                        "mathematics vs computation",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
+                par {
+                    'On ',
+                    link {
+                        "./misc/creativity.incodoc",
+                        "two types of creativity",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
+                par {
+                    'On ',
+                    link {
+                        "./software/artix-arch.incodoc",
+                        "minimalism in Artix and Arch",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
+                par {
+                    'My personal opinion on ',
+                    link {
+                        "./misc/fountainpen-inks.incodoc",
+                        "fountain pen inks",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
+            },
+        },
+    },
+    section {
+        head {
+            0,
+            "Incodoc",
+        },
+        par {
+            'This website is made using ',
+            'incodoc-ssg' {
+                tags {
+                    "code",
+                },
+            },
+            ', a creation of mine.
+',
+            em {
+                le,
+                "Incodoc",
+            },
+            ' stands for incorporeal document.
+The corporeal version is presented in simple HTML+CSS and contains no Javascript.
+No cookies, no trackers, no ads, no analytics.
+For more info on ',
+            em {
+                le,
+                "incodoc",
+            },
+            ' please see:',
+        },
+        par {
+            list {
+                il,
+                par {
+                    link {
+                        "https://github.com/codybloemhard/incodoc",
+                        "github.com/codybloemhard/incodoc",
+                    },
+                },
+                par {
+                    link {
+                        "https://github.com/codybloemhard/incodoc-ssg",
+                        "github.com/codybloemhard/incodoc-ssg",
+                    },
+                },
+            },
+        },
+    },
+    section {
+        head {
+            0,
+            "RSS feed",
+        },
+        par {
+            list {
+                il,
+                par {
+                    'The RSS feed for the HTML version of this site is ',
+                    link {
+                        "./feed.xml",
+                        "feed.xml",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
+                par {
+                    'The RSS feed for the incodoc version of this site is ',
+                    link {
+                        "./incodoc-feed.xml",
+                        "incodoc-feed.xml",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
+            },
+        },
+    },
+    section {
+        head {
+            0,
+            "Authorship",
+        },
+        par {
+            'This website is written personally by me (Cody Bloemhard).
+None of the content is generated with a LLM.
+All opinions are my own.
+I do not speak on behalf of anyone but myself.',
+        },
+    },
+    section {
+        head {
+            0,
+            "Contact",
+        },
+        par {
+            'If you have something to say or ask you can sent an email to codybloemhard at gmail dot com.',
+        },
+    },
+},

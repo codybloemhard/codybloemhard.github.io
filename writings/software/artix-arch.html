@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" type="text/css" href="../style.css">
+<link rel="alternate" type="text/incodoc" href="artix-arch.incodoc">
+<link rel="alternate" type="application/rss+xml" href="/home/cody/git/codybloemhard.github.io/writings/feed.xml">
+<link rel="alternate" type="incodoc/rss+xml" href="/home/cody/git/codybloemhard.github.io/writings/incodoc-feed.xml">
+</head>
+<body>
+<header><a class="local" href="./artix-arch.incodoc"> incodoc version</a> | <a href="./../index.html" target="_self" class="local ">up to parent page</a></header>
+<section id="minimalism-in-artix-and-arch">
+<h1>
+Minimalism in Artix and Arch
+</h1>
+<p>
+<a href="https://artixlinux.org/" target="_blank">Artix</a> is Arch without systemd.
+<section id="kiss">
+<h2>
+KISS
+</h2>
+<section class="blockquote " id="">
+<h6>
+
+</h6>
+<p>
+keep it simple, stupid
+</section>
+<p>
+The <a href="#footnote-Arch website" target="_self" class="footnote-ref ">Arch website</a> headlines with:
+<section class="blockquote " id="">
+<h6>
+
+</h6>
+<p>
+A simple, lightweight distribution … that tries to Keep It Simple
+</section>
+<p>
+The second sentence on the <a href="#footnote-about page" target="_self" class="footnote-ref ">about page</a> contains:
+<section class="blockquote " id="">
+<h6>
+
+</h6>
+<p>
+focuses on simplicity, minimalism, and code elegance.
+</section>
+<p>
+In this regard, Artix is more Arch than Arch.
+Artix is Arch without systemd.
+It is the same, except for the parts where it is different.
+And exactly the parts that are different are simpler, more lightweight, more minimal and elegant.
+I cannot help but feel that Arch should be exactly what Artix is.
+Maybe the special version of Arch would then be a version <em>with</em> systemd.
+<p>
+There is nothing wrong with systemd, I have used it and it works fine.
+However, I feel that systemd cannot be described as “simple”, “minimal” or “elegant”.
+It is very much <em>“all the features we can fit in”</em> type of software.
+One of the main criticism that systemd gets is that it does things that an init system should not.
+It is expected that distros like Ubuntu pick systemd as an init system.
+Such distros do not cite minimalism as a goal.
+It is also a strong choice for use on servers, where the extra functionality could be used.
+But not so on a distro for mostly desktop use where minimalism is an explicitly stated goal.
+</section>
+<section id="base">
+<h2>
+BASE
+</h2>
+<p>
+Systemd is the only downside to Arch according to my taste, as far as I can see.
+The next sentence of the about section reads:
+<section class="blockquote " id="">
+<h6>
+
+</h6>
+<p>
+Arch is installed as a minimal base system,
+configured by the user upon which their own ideal environment is assembled by installing only what
+is required or desired for their unique purposes.
+GUI configuration utilities are not officially provided,
+</section>
+<p>
+Beautiful, makes sense in the context of a minimal distro.
+Surely, Artix, being a more Arch Arch than Arch in the way that Arch describes Arch,
+would follow in this line of reasoning?
+They do not:
+<p>
+<a href="https://iso.artixlinux.org/isos.php" target="_blank">iso.artixlinux.org/isos.php</a>
+<p>
+The download page contains prebuild ISO’s with desktop environments (DE) installed.
+This is a most peculiar choice.
+Picture an Arch install with a DE installed.
+The user wants something more simple and minimal.
+What is the first thing to replace for a more minimal component?
+Surely it is the biggest offender: the DE.
+DE’s are bloated in more than a few ways.
+It’s not just software size and complexity, user experience plays an important role as well.
+Init systems have much less impact on the computing experience.
+Many fuss on their choice of DE/WM.
+Many less do about their init system.
+The amount of users that care about minimalism in their init system but not
+about minimalism in their desktop environment seem to be few to me.
+And for the few that exist, we can expect them to be able to install their DE themselves.
+</section>
+<section id="decision?">
+<h2>
+DECISION?
+</h2>
+<p>
+Some of these design decisions strike me as odd and inconsistent with the other decisions.
+I was not around when Arch hopped onto systemd.
+A quick look at their site does not reveal the reasons behind their decisions.
+Artix’s <a href="#footnote-FAQ" target="_self" class="footnote-ref ">FAQ</a> does not explain their decision to provide non-base ISO’s.
+All it says is that people new to Linux should use them instead of the base ISO.
+But why should new users use something like Artix?
+As someone who’s favorite distro is Artix, I still wouldn’t quite recommend it for beginners.
+And even though I don’t like systemd I would recommend a systemd distro to beginners.
+It would be nice for these kind of projects to have a page with their design decisions.
+Why are choices made?
+How do they fit in with the general philosophy of the project?
+Note that both of these projects are clearly motivated by ideology.
+A page like that would not be out of place.
+<section class="footnote-def " id="footnote-Arch website">
+<h6>
+Arch website
+</h6>
+<p>
+<a href="https://archlinux.org/" target="_blank">archlinux.org/</a> (visited on March 2026)
+</section>
+<section class="footnote-def " id="footnote-about page">
+<h6>
+about page
+</h6>
+<p>
+<a href="https://archlinux.org/about/" target="_blank">archlinux.org/about/</a> (visited on March 2026)
+</section>
+<section class="footnote-def " id="footnote-FAQ">
+<h6>
+FAQ
+</h6>
+<p>
+Artix Linux frequently asked questions: <a href="https://artixlinux.org/faq.php" target="_blank">artixlinux.org/faq.php</a> (visited on March 2026)
+</section>
+</section>
+</section>
+<footer><strong>© 2026 Cody Bloemhard</strong> | version: <strong>0.1.0</strong> | date: <strong>2026-03-28 Sat</strong></footer>
+</body>
+</html>
