@@ -8,8 +8,9 @@ title: The writings of Cody Bloemhard.
 description: Writings on multiple subjects.
 trim-https-prefix: true
 
-index.md, 0.1.0, enabled, 2026-03-28 Sat
+index.md, 0.2.0, enabled, 2026-03-28 Sat
 misc/fountainpen-inks.md, 0.1.0, enabled, 2026-03-28 Sat
 misc/creativity.md, 0.1.0, enabled, 2026-03-28 Sat
 math/mathematics-vs-computation.md, 0.1.0, enabled, 2026-03-28 Sat
 software/artix-arch.md, 0.1.0, enabled, 2026-03-28 Sat
+reading/the-meditations.md, 0.1.0, enabled, 2026-06-18 Thu

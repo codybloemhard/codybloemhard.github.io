@@ -1,0 +1,1366 @@
+props {
+    ("author", "Cody Bloemhard"),
+    ("generator", "incodoc-ssg"),
+    ("lang", "en"),
+    ("date-unix", "1785532335"),
+    ("initial-version-date", "2026-06-18 Thu"),
+    ("table-of-contents", "include"),
+    ("version", "0.1.0"),
+    ("date-rfc2822", "Fri, 31 Jul 2026 23:12:15 +0200"),
+},
+nav {
+    link {
+        "./../index.incodoc",
+        "up to parent page",
+        tags {
+            "local",
+        },
+    },
+},
+section {
+    head {
+        0,
+        "The Meditations by Marcus Aurelius",
+    },
+    par {
+        'On my reading of ',
+        em {
+            me,
+            "The Meditations",
+        },
+        '.
+By emperor of Rome ',
+        em {
+            me,
+            "Marcus Aurelius Antoninus",
+        },
+        '.
+Known as one of the “Five Good Emperors” and last emperor of the Pax Romana,
+he seems to be considered a rather nice guy especially compared to some other Roman emperors.
+The work was written in the second century.',
+    },
+    par {
+        link {
+            "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+            "en.wikipedia.org/wiki/Marcus_Aurelius",
+        },
+    },
+    par {
+        'I used the Project Gutenberg eBook version of this text.
+It is an English translation done by Boulton and Widger.
+Released in 2001 but last updated in 2021 as of reading.',
+    },
+    par {
+        link {
+            "https://www.gutenberg.org/cache/epub/2680/pg2680-images.html",
+            "www.gutenberg.org/cache/epub/2680/pg2680-images.html",
+        },
+    },
+    par {
+        'I finished reading in June 2026.
+I cannot remember when I started reading it.
+It took quite a while, I quit and started again many times over.
+Towards the end I read more consistently.
+The last book I read was ',
+        em {
+            me,
+            "the book of Zhuangzi",
+        },
+        '.',
+    },
+    par {
+        'I had heard that when it comes to philosophy books, it was supposedly an easy book to read.
+In reading however, I did not find it so easy.
+The language is archaic, using language such as “thee”, “thou”, “art”, “seemeth”, “doth”, etc.
+That does not make it hard to read per se, I just found it hard to parse at times.
+Sometimes the structure of the sentences threw me off.
+I must admit that in the beginning I had no clue what he was talking about half the time.
+I did get used to it and I had an easier time reading later on.
+As I remember, the book of Zhuangzi came more naturally to me.',
+    },
+    par {
+        'The only stoic text I had read before this was the ',
+        em {
+            me,
+            "Enchiridion of Epictetus",
+        },
+        ', which is rather short.
+I thought this was a good book to continue with.
+However, as I read I began to see that it might not be the best choice.
+The Meditations is just a dairy that Aurelius wrote as he lived.
+Many things come without context and there seems to be little structure.
+It is not written with a reader in mind other than himself.
+With little knowledge of Stoicism it can seem all a bit random.
+Topics come and go, I assume, based on what Aurelius is thinking about at the moment.
+There might be a better starting point but that’s OK.',
+    },
+    par {
+        'Starting out, I did not keep notes as I read.
+After coming across the first excerpt you will shortly read, I thought it be good to and started
+taking notes.
+With previous books I did not keep notes either.
+I intend to keep notes in future reads.',
+    },
+    section {
+        head {
+            0,
+            "Excerpts",
+        },
+        par {
+            'I will go through some excerpts and comment on them.
+I will discuss mostly interpretations and reflections.',
+        },
+        section {
+            head {
+                0,
+                "III:VIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Never esteem of anything as profitable, which shall ever constrain thee either to break thy faith, or to lose thy modesty; to hate any man, to suspect, to curse, to dissemble, to lust after anything, that requireth the secret of walls or veils. But he that preferreth before all things his rational part and spirit, and the sacred mysteries of virtue which issueth from it, he shall never lament and exclaim, never sigh; he shall never want either solitude or company: and which is chiefest of all, he shall live without either desire or fear.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I care especially for the first sentence.
+This might be my favourite sentence.
+I interpret it as: do not think of as good anything that stops you from doing bad things.
+I should refrain from bad things by will and not because something is stopping me.
+For example: I should not punch an innocent person.
+I should refrain from that because I want to, not because I am afraid of punishment.',
+            },
+            par {
+                'The part about preferring the rational part and spirit I didn’t quite connect to the first part at
+first.
+It seems he is saying that refraining from doing bad things is part of the rational part and spirit.
+That you must refrain from bad things by means of your rational part instead of by external and
+material influences such as consequence or inability.',
+            },
+            par {
+                'For example: you doom scroll on your phone too much.
+Should you get a dumb phone so that you cannot do this any more, or should you keep your smart phone
+and refrain by means of your rational part and spirit?
+According to Aurelius we should not value, see as profitable, that the dumb phone stops us.
+Why should this be?
+I think because we could never build enough protection around us to keep us from doing bad things.
+Whether we do a lot of bad things or only a few depends on our choices.
+We should choose well and not depend on external and material factors stopping us.
+In the end it is only us that can stop us.',
+            },
+            par {
+                'Ethics also come into play.
+Imagine Alice and Bob who are evil killers.
+They just enjoy violence and suffering and care not for others.
+Alice kills someone and is considered a very bad person.
+Bob tries to kill someone but is stopped by Charlie who is strong and invincible.
+Is Bob any better of a person than Alice?
+I think not because Bob was merely stopped by an external and material force (Charlie).
+He did not stop by his own rational part and spirit.
+Now imagine Derek.
+He feels the urge to kill but also feels that it is very wrong.
+While it is difficult for him, he refrains from it with his rational part and spirit.
+I don’t think Derek is a bad person.
+In fact, his disciple and care of others over his own inclinations is commendable.',
+            },
+            par {
+                'A while a ago my friends showed me the film “A Clockwork Orange”.
+Shown is a character that does many bad things, however through some new method he is conditioned
+to refrain from such actions.
+The big important people find this very useful, but the Christian guy (pastor?) argues against it,
+saying something like good must come from within (I don’t quite remember).
+It seems he takes an Aurelius-like position on the matter.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VI:IV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'All substances come soon to their change, and either they shall be resolved by way of exhalation , or as others maintain, they shall be scattered and dispersed.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'My first thought was that he is referencing entropy. Especially since he is not just saying that
+change is inevitable, but that ',
+                em {
+                    le,
+                    "substances",
+                },
+                ' shall be ',
+                em {
+                    le,
+                    "scattered and dispersed",
+                },
+                '.
+Such statements along the lines of “change is inevitable” are trivial.
+The purpose is not to explain or argue for anything.
+Obviously Aurelius doesn’t need to explain such trivial matters to himself.
+I think it is to reflect on it, rub it into your mind and keep it there.
+It seems that Aurelius needed to remind himself of it in the moment.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VI:XVIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Do not ever conceive anything impossible to man, which by thee cannot, or not without much difficulty be effected; but whatsoever in general thou canst Conceive possible and proper unto any man, think that very possible unto thee also.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I see this as a more reasonable version of “you can do anything if you set your mind to it”.
+First he seems to tell us not to underestimate our fellow man.
+If we cannot do it, it does not mean others can’t.
+Then: if it seems possible in general for people, it is probably possible for you.
+He says ',
+                em {
+                    le,
+                    "“any man”",
+                },
+                ', not ',
+                em {
+                    le,
+                    "“a man”",
+                },
+                '.
+Unfortunately, to me it seems that athletes often adopt the more unrealistic version I gave.
+Especially on social media, many seem to try to sell a delusion where the hardest working man wins.
+In reality, if you are very short you aren’t going to break the 100 meter sprint record.
+If you are very tall, you aren’t going to break any powerlifting records.
+Such things are not possible for just anyone and don’t just come down to effort and willingness.
+However when it comes to things such as learning a language or an instrument to a decent degree,
+you should think that possible for yourself.
+While difficult and laborious, such things are possible for most people and likely for you as well.
+Note that I am taking ',
+                em {
+                    le,
+                    "“any”",
+                },
+                ' with a grain of salt.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VI:XX",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'If anybody shall reprove me, and shall make it apparent unto me, that in any either opinion or action of mine I do err, I will most gladly retract. For it is the truth that I seek after, by which I am sure that never any man was hurt; and as sure, that he is hurt that continueth in any error, or ignorance whatsoever.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'This is obviously a good thing.
+When asked, most people would say that they agree with it.
+However it is evident that a lot of people do not follow it.
+It seems more important to many people to affirm the things they already believe and to never accept
+that they are proven wrong.
+Not only when it comes to politics and religion, but also when it comes to silly irrelevant things.
+Ask yourself, have you ever clung to a position when proven wrong?
+In that moment, did you keep this in mind?
+Or did you become defensive in the moment and fail to actually think and reflect?
+It is probably the latter (I hope).
+That is why it is important to read such things once in a while even though it is so trivial.
+If it was the former, I don’t know what to tell you!',
+            },
+        },
+        section {
+            head {
+                0,
+                "VI: XXXIX and XLIX",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    '… Those things therefore that are expedient and profitable to those cities, are the only things that are good and expedient for me.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'That which is not good for the bee-hive, cannot be good for the bee.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'It seems he is arguing for some kind of collectivism here.
+The first one, I’m not so sure about.
+The second sounds more reasonable.
+We live in a society, and we depend on it in order to live as we do.
+If we damage the society around us, it will bite us in the ass even if we gain in the short term.
+Again not very hard to understand but clearly humanity has not gotten it through its thick skull yet
+even after 2000 years.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VI:XLIV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Dost thou grieve that thou dost weigh but so many pounds, and not three hundred rather? Just as much reason hast thou to grieve that thou must live but so many years, and not longer. For as for bulk and substance thou dost content thyself with that proportion of it that is allotted unto thee, so shouldst thou for time.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I thought this was a little funny.
+Many people are unhappy with the amount of pounds they weigh.
+I don’t know how it was back in the day.
+Maybe this example didn’t age well.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VII:IX",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Straight of itself, not made straight.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Related to the first excerpt ',
+                link {
+                    "#iii:viii",
+                    "III:VIII",
+                    tags {
+                        "local",
+                    },
+                },
+                '.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VII:X",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'As several members in one body united, so are reasonable creatures in a body divided and dispersed, all made and prepared for one common operation. And this thou shalt apprehend the better, if thou shalt use thyself often to say to thyself, I am μέλος, or a member of the mass and body of reasonable substances. But if thou shalt say I am μέρος, or a part, thou dost not yet love men from thy heart. The joy that thou takest in the exercise of bounty, is not yet grounded upon a due ratiocination and right apprehension of the nature of things. Thou dost exercise it as yet upon this ground barely, as a thing convenient and fitting; not, as doing good to thyself, when thou dost good unto others.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'This sounds like some of the things I read in ',
+                em {
+                    me,
+                    "Laozi",
+                },
+                ' and ',
+                em {
+                    me,
+                    "Zhuangzi",
+                },
+                '.
+That the universe is a single thing in its entirety, and that we are but a part of the whole, but
+not a separate part.
+I think that is what the distinction of member versus part means here.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VII:XII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Whatsoever any man either doth or saith, thou must be good; not for any man’s sake, but for thine own nature’s sake; as if either gold, or the emerald, or purple, should ever be saying to themselves, Whatsoever any man either doth or saith, I must still be an emerald, and I must keep my colour.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'He starts specifically with ',
+                em {
+                    le,
+                    "“Whatsoever any man either doth or saith, thou must be good;”",
+                },
+                '.
+So he is probably talking specifically about being good in response to others.
+He goes on to say that you must keep your colour.
+I think he means that if you are good inside, doing bad things will corrupt your good nature.
+You must do good not for their sake but for your own,
+for if you do bad you will not only hurt yourself but also degrade your very nature.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VIII:II",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Upon every action that thou art about, put this question to thyself; How will this when it is done agree with me? Shall I have no occasion to repent of it? Yet a very little while and I am dead and gone; and all things are at end. What then do I care for more than this, that my present action whatsoever it be, may be the proper action of one that is reasonable; whose end is, the common good; who in all things is ruled and governed by the same law of right and reason, by which God Himself is.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I think he is arguing against not doing the right thing in the moment for future gain.
+Because that gain will all be gone just a bit later as you stop existing.
+All that you really have is the moment so the only thing to do is to do good in the moment.
+On the other hand he starts with considering the future and avoiding regrets.
+That is a bit confusing to me.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VIII:XXXI",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Receive temporal blessings without ostentation, when they are sent and thou shalt be able to part with them with all readiness and facility when they are taken from thee again.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'If we are talking about useful but unnecessary temporal blessings such as extra money or status then
+this seems good advice.
+Lets say you go from average to being rich.
+For reasons you slip back to being of average wealth.
+If you made a big thing out of becoming rich it might hit you really hard, even though you didn’t
+lose anything important and still have food, clothes and a place to sleep.
+If you didn’t, it was just a little bonus and now you are back to normal.',
+            },
+            par {
+                'However if we take these blessings to also include things like people and relationships, I can’t
+quite see it holding any more.
+Just because I wasn’t ostentatious about having a friend, doesn’t mean I’m ready to part when they
+get hit by a car.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VIII:XLIV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Is this then a thing of that worth, that for it my soul should suffer, and become worse than it was? as either basely dejected, or disordinately affected, or confounded within itself, or terrified? What can there be, that thou shouldest so much esteem?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'This is very general.
+The thing of worth for which our soul might suffer doesn’t have to be material gains or status,
+but I think these are the things people most often sacrifice their inner spirit for.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VIII:XLV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Nothing can happen unto thee, which is not incidental unto thee, as thou art a man. As nothing can happen either to an ox, a vine, or to a stone, which is not incidental unto them; unto every one in his own kind. If therefore nothing can happen unto anything, which is not both usual and natural; why art thou displeased? Sure the common nature of all would not bring anything upon any, that were intolerable. If therefore it be a thing external that causes thy grief, know, that it is not that properly that doth cause it, but thine own conceit and opinion concerning the thing: which thou mayest rid thyself of, when thou wilt. But if it be somewhat that is amiss in thine own disposition, that doth grieve thee, mayest thou not rectify thy moral tenets and opinions. But if it grieve thee, that thou doest not perform that which seemeth unto thee right and just, why doest not thou choose rather to perform it than to grieve? But somewhat that is stronger than thyself doth hinder thee. Let it not grieve thee then, if it be not thy fault that the thing is not performed. ‘Yea but it is a thing of that nature, as that thy life is not worth the while, except it may be performed.’ If it be so, upon condition that thou be kindly and lovingly disposed towards all men, thou mayest be gone. For even then, as much as at any time, art thou in a very good estate of performance, when thou doest die in charity with those, that are an obstacle unto thy performance.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'On not doing things that you think that you should:
+if it grieves you that you do not perform it, why not just do it.
+Because something stronger is stopping you, and thus it is not your fault so don’t be sad.
+The stoic position seems that you cannot change outcomes but you can change your actions.
+However it seems that he is talking here about the very performing of the action not being done?
+And that it might not be your fault?
+However he believes that you can change your inner world and opinions.
+He even talks about that before he begins the part I’m talking about.
+If we fail doing something, how do we know if we were truly overwhelmed by something bigger,
+or if we were too weak and should try harder?
+This is one of the more mysterious sections for me.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VIII:LV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'He that feareth death, either feareth that he shall have no sense at all, or that his senses will not be the same. Whereas, he should rather comfort himself, that either no sense at all, and so no sense of evil; or if any sense, then another life, and so no death properly.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I really like this part, especially ',
+                em {
+                    le,
+                    "“death properly”",
+                },
+                '.
+In many believe systems something comes after death, some kind of life (“life after death”),
+so you don’t really properly die.
+I have always thought that this is such a cop-out.
+It is clearly part of the believe systems because people cannot accept proper death properly.
+People are so scared of death that they invent stories that promise something after death.
+If you believe such a story your fear of death is gone for there is no proper death to be afraid of.
+Aurelius goes both ways: whether or not there is proper death there is nothing to be afraid of.
+To me it seems that if you fear non existence, or anything else for that matter,
+you should tackle that fear directly instead of
+adopting a convenient believe system that does away with what you are scared of.
+I strongly believe that proper death in particular is something that anyone needs to come to terms
+with.',
+            },
+        },
+        section {
+            head {
+                0,
+                "VIII:LVI and IX:IX",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'All men are made one for another: either then teach them better, or bear with them.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Either teach them better if it be in thy power; or if it be not, remember that for this use, to bear with them patiently, was mildness and goodness granted unto thee. The Gods themselves are good unto such; yea and in some things, (as in matter of health, of wealth, of honour,) are content often to further their endeavours: so good and gracious are they. And mightest thou not be so too? or, tell me, what doth hinder thee?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'If you can’t even be bother to teach someone better, is it even worth getting annoyed over?
+And if you really can’t bear with them, surely trying to teach them is a small price.
+I think most of the time the first one is applicable.
+It is common that people get irritated about small things they can’t be bothered to do something
+about and I am no exception.
+The problem is the emotional reaction often comes up quickly and stopping to think about it is tricky.
+A fruitful improvement is to learn to be able to insert this moment of thinking between the
+emotion and the reaction to it.
+To bear with them or teach them also gives a choice between two practical actions.',
+            },
+        },
+        section {
+            head {
+                0,
+                "IX:XIV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'As virtue and wickedness consist not in passion, but in action; so neither doth the true good or evil of a reasonable charitable man consist in passion, but in operation and action.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'In the age of virtue signalling on social media this is still very relevant.
+You cannot be good if you do not do good.
+So just do it!
+Easier said than done, but we should at least try.
+We can also see it the other way around: maybe we should set ourselves into action towards good
+first before speaking loudly about what is right.',
+            },
+        },
+        section {
+            head {
+                0,
+                "IX:XV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'To the stone that is cast up, when it comes down it is no hurt unto it; as neither benefit, when it doth ascend.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'My interpretation. A stone doesn’t change its fundamental properties as a stone when it goes up and
+down.
+The same goes for people.
+A person isn’t fundamentally different whether they go up or down in society’s ranks.
+A poor person isn’t any less of a human and a rich person isn’t any better as a person through their
+position.
+Materials gains are handy but don’t make you of any better character.',
+            },
+        },
+        section {
+            head {
+                0,
+                "IX:XVI",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Sift their minds and understandings, and behold what men they be, whom thou dost stand in fear of what they shall judge of thee, what they themselves judge of themselves.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'If you are afraid of people judging you, think to yourself: is it even worth being worried what
+such a person thinks of me?',
+            },
+        },
+        section {
+            head {
+                0,
+                "IX:XXVI",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Up and down, from one age to another, go the ordinary things of the world; being still the same. And either of everything in particular before it come to pass, the mind of the universe doth consider with itself and deliberate: and if so, then submit for shame unto the determination of such an excellent understanding: or once for all it did resolve upon all things in general; and since that whatsoever happens, happens by a necessary consequence, and all things indivisibly in a manner and inseparably hold one of another. In sum, either there is a God, and then all is well; or if all things go by chance and fortune, yet mayest thou use thine own providence in those things that concern thee properly; and then art thou well.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'You experience the world as you do.
+Whether a god made this universe or a big bang occurred, it went as it did and your life till now
+is what it is.
+Whether a god made you or whether a deterministic universe happened to assemble you,
+you feel the pain as you do, and the appleness of the apple you experience as you do.
+You might have free will or you might not, but you experience the world such that you feel that you
+do have free will.
+Maybe a god is judging your actions, maybe not.
+All you can do is to try to live as well as you can either way.
+Take the world as it seems to you (while being open and honest).
+The metaphysical truth of the universe does not matter for you and your experience of life.
+The “big questions” (is there a god, do we have free will) are actually small questions to me.
+Interesting and enriching to think about, but the answer or having an answer is not important at all.
+It is certainly not worth being worried about.
+Let such things behind you and focus on how you live each day.',
+            },
+            par {
+                em {
+                    me,
+                    "“It is what it is”",
+                },
+            },
+        },
+        section {
+            head {
+                0,
+                "IX:XXVIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'And these your professed politicians, the only true practical philosophers of the world, (as they think of themselves) so full of affected gravity, or such professed lovers of virtue and honesty, what wretches be they in very deed; how vile and contemptible in themselves? O man! what ado doest thou keep? Do what thy nature doth now require. Resolve upon it, if thou mayest: and take no thought, whether anybody shall know it or no. Yea, but sayest thou, I must not expect a Plato’s commonwealth. If they profit though never so little, I must be content; and think much even of that little progress. Doth then any of them forsake their former false opinions that I should think they profit? For without a change of opinions, alas! what is all that ostentation, but mere wretchedness of slavish minds, that groan privately, and yet would make a show of obedience to reason, and truth? Go too now and tell me of Alexander and Philippus, and Demetrius Phalereus. Whether they understood what the common nature requireth, and could rule themselves or no, they know best themselves. But if they kept a life, and swaggered; I (God be thanked) am not bound to imitate them. The effect of true philosophy is, unaffected simplicity and modesty. Persuade me not to ostentation and vainglory.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'In particular:',
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    '… Do what thy nature doth now require. Resolve upon it, if thou mayest: and take no thought, whether anybody shall know it or no. …',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Do not do the right thing because people are watching.
+Make sure you do the right thing because it is right.',
+            },
+        },
+        section {
+            head {
+                0,
+                "IX:XXXIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Loss and corruption, is in very deed nothing else but change and alteration; and that is it, which the nature of the universe doth most delight in, by which, and according to which, whatsoever is done, is well done. For that was the estate of worldly things from the beginning, and so shall it ever be. Or wouldest thou rather say, that all things in the world have gone ill from the beginning for so many ages, and shall ever go ill? And then among so many deities, could no divine power be found all this while, that could rectify the things of the world? Or is the world, to incessant woes and miseries, for ever condemned?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I think he is trying to say that because loss and corruption (and other bad things) are part of the
+regular going of the world, that they cannot be that bad.
+Objects and organism deteriorate leading to death and decay.
+Death and decay in general must not be considered a bad thing.
+However, accepting death and decay in general does not automatically enable you to accept
+death and decay in particular instances.',
+            },
+        },
+        section {
+            head {
+                0,
+                "X:III",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Whatsoever doth happen unto thee, thou art naturally by thy natural constitution either able, or not able to bear. If thou beest able, be not offended, but bear it according to thy natural constitution, or as nature hath enabled thee. If thou beest not able, be not offended. For it will soon make an end of thee, and itself, (whatsoever it be) at the same time end with thee. But remember, that whatsoever by the strength of opinion, grounded upon a certain apprehension of both true profit and duty, thou canst conceive tolerable; that thou art able to bear that by thy natural constitution.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'If you can handle it then it is fine.
+If you can’t, you will be dead soon and the problem is gone.
+When I read ',
+                em {
+                    le,
+                    "“For it will soon make an end of thee”",
+                },
+                ' I just had to laugh.',
+            },
+        },
+        section {
+            head {
+                0,
+                "X:XVIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Make it not any longer a matter of dispute or discourse, what are the signs and proprieties of a good man, but really and actually to be such.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Related to ',
+                link {
+                    "#ix:xiv",
+                    "IX:XIV",
+                    tags {
+                        "local",
+                    },
+                },
+                '.',
+            },
+        },
+        section {
+            head {
+                0,
+                "X:XXX",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'When thou art offended with any man’s transgression, presently reflect upon thyself; and consider what thou thyself art guilty of in the same kind. As that thou also perchance dost think it a happiness either to be rich, or to live in pleasure, or to be praised and commended, and so of the rest in particular. For this if thou shalt call to mind, thou shalt soon forget thine anger; especially when at the same time this also shall concur in thy thoughts, that he was constrained by his error and ignorance so to do: for how can he choose as long as he is of that opinion? Do thou therefore if thou canst, take away that from him, that forceth him to do as he doth.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Similar to ',
+                link {
+                    "#viii:lvi-and-ix:ix",
+                    "VIII:LVI and IX:IX",
+                    tags {
+                        "local",
+                    },
+                },
+                ', especially with that last sentence (to teach others better).
+But this time with a focus on realising that you yourself might do similar things.',
+            },
+        },
+        section {
+            head {
+                0,
+                "X:XXXV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'A good eye must be good to see whatsoever is to be seen, and not green things only. For that is proper to sore eyes. So must a good ear, and a good smell be ready for whatsoever is either to be heard, or smelt: and a good stomach as indifferent to all kinds of food, as a millstone is, to whatsoever she was made for to grind. As ready therefore must a sound understanding be for whatsoever shall happen. But he that saith, O that my children might live! and, O that all men might commend me for whatsoever I do! is an eye that seeks after green things; or as teeth, after that which is tender.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Do not only see and hear the things that you want to.
+Although I do not think that wishing for good things is bad.
+Maybe the lesson is not to wish for unrealistic or unreasonable things.
+In our time wishing that your children will live is reasonable,
+but in his time probably not so much.
+Similarly, being praised by all is certainly not realistic nor reasonable.
+Go on then: wish for reasonably good things.
+That you may have decent food and a roof above your head.
+Clean water to drink and wash with as well as a doctor to see.
+That you may go on and be treated well enough on average.
+But do not wish for the unreasonable.
+Do not wish for mansions, not for sports cars, not for women, not for fame,
+not for a lack of criticism.
+I think above not wishing for unnecessary luxury, the message is not to wish for a lack of bad things.
+Death, disease and disaster will happen at least a few times.
+You may wish that it won’t be often but you should not wish that it will not happen at all, for it will.',
+            },
+            par {
+                'And I will add myself: do not wish for that which you do not wish upon the wider public.
+If you do not think it necessary for regular people to have a Ferrari and a private jet,
+why should you have any of those?
+Are you so much better?
+Do you deserve so much more?
+Do you need all this to be happy?
+The answer is no.',
+            },
+        },
+        section {
+            head {
+                0,
+                "X:XXXVII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Use thyself; as often, as thou seest any man do anything, presently (if it be possible) to say unto thyself, What is this man’s end in this his action? But begin this course with thyself first of all, and diligently examine thyself concerning whatsoever thou doest.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'When having a goal, it is easy to start thinking immediately how to get there.
+However it is better if you think first: why do I want to get there?
+Why do I have this goal?
+Is it good to have this goal?
+Is there an underlying emotion that drives the yearning that could be addressed in a different way?',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:IV",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Have I done anything charitably? then am I benefited by it. See that this upon all occasions may present itself unto thy mind, and never cease to think of it. What is thy profession? to be good. And how should this be well brought to pass, but by certain theorems and doctrines; some Concerning the nature of the universe, and some Concerning the proper and particular constitution of man?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Not everything has to benefit you directly, certainly not in a material way.
+Also not by any social perks such as recognition and praise by others.
+Expect nothing in return when you do something good.
+I think this also might have to do with ',
+                link {
+                    "#vii:xii",
+                    "VII:XII",
+                    tags {
+                        "local",
+                    },
+                },
+                '.
+That doing good is good for your good nature.',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:VI.",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'How clearly doth it appear unto thee, that no other course of thy life could fit a true philosopher’s practice better, than this very course, that thou art now already in?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I could try to interpret this generally, but since he is writing to himself he really might mean
+his very own life and thus not mine and neither yours.
+Thinking of my own life, surely a true philosopher would know better than to do what I did!',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:VIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'To grow together like fellow branches in matter of good correspondence and affection; but not in matter of opinions. They that shall oppose thee in thy right courses, as it is not in their power to divert thee from thy good action, so neither let it be to divert thee from thy good affection towards them. But be it thy care to keep thyself constant in both; both in a right judgment and action, and in true meekness towards them, that either shall do their endeavour to hinder thee, or at least will be displeased with thee for what thou hast done. For to fail in either (either in the one to give over for fear, or in the other to forsake thy natural affection towards him, who by nature is both thy friend and thy kinsman) is equally base, and much savouring of the disposition of a cowardly fugitive soldier.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Some people adjust their opinions and actions to fit in with those around them,
+too afraid to push back against things they consider wrong.
+Others are harsh against those who have different opinions.
+Neither is good nor productive.
+Forgoing your own morality won’t do you any good.
+Treating others with contempt will not convince them nor change them for the better.',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:XII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Will any contemn me? let him look to that, upon what grounds he does it: my care shall be that I may never be found either doing or speaking anything that doth truly deserve contempt. Will any hate me? let him look to that. I for my part will be kind and loving unto all, and even unto him that hates me, whom-soever he be, will I be ready to show his error, not by way of exprobation or ostentation of my patience, but ingenuously and meekly: such as was that famous Phocion, if so be that he did not dissemble. For it is inwardly that these things must be: that the Gods who look inwardly, and not upon the outward appearance, may behold a man truly free from all indignation and grief. For what hurt can it be unto thee whatsoever any man else doth, as long as thou mayest do that which is proper and suitable to thine own nature? Wilt not thou (a man wholly appointed to be both what, and as the common good shall require) accept of that which is now seasonable to the nature of the universe?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Just another simple reminder that I like.
+To do what is good, not to do such that others think that you are good.
+To not let opinions of others hurt you, as long as you know deep inside that you are doing what is right.
+To remember that treating others well is the right thing to do even if they do not think well of you.
+And if you are doing something improper, let the improper action itself be the source of your grief
+instead of the opinion of others on that action.',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:XIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'They contemn one another, and yet they seek to please one another: and whilest they seek to surpass one another in worldly pomp and greatness, they most debase and prostitute themselves in their better part one to another.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'I take this to be a warning against “keeping up with the Joneses”.
+Trading time, effort, money and morality for recognition and praise from people we don’t even care
+about.
+What I mean with trading in morality is doing things you actually view as immoral yourself but do
+to keep up with those around you.
+Either to fit in or to acquire the wealth to be able to do so.
+Because having no moral compass is extremely handy for acquiring wealth and power,
+the richest are often the most vile among us.
+Any person of good character needs no praise from them and fitting in with them is a crime against
+your good nature, not an accomplishment.
+I think this also ties back to ',
+                link {
+                    "#ix:xvi",
+                    "IX:XVI",
+                    tags {
+                        "local",
+                    },
+                },
+                '.',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:XVIII",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'What portion soever, either of air or fire there be in thee, although by nature it tend upwards, submitting nevertheless to the ordinance of the universe, it abides here below in this mixed body. So whatsoever is in thee, either earthy, or humid, although by nature it tend downwards, yet is it against its nature both raised upwards, and standing, or consistent. So obedient are even the elements themselves to the universe, abiding patiently wheresoever (though against their nature) they are placed, until the sound as it were of their retreat, and separation. Is it not a grievous thing then, that thy reasonable part only should be disobedient, and should not endure to keep its place: yea though it be nothing enjoined that is contrary unto it, but that only which is according to its nature? For we cannot say of it when it is disobedient, as we say of the fire, or air, that it tends upwards towards its proper element, for then goes it the quite contrary way. For the motion of the mind to any injustice, or incontinency, or to sorrow, or to fear, is nothing else but a separation from nature. Also when the mind is grieved for anything that is happened by the divine providence, then doth it likewise forsake its own place. For it was ordained unto holiness and godliness, which specially consist in an humble submission to God and His providence in all things; as well as unto justice: these also being part of those duties, which as naturally sociable, we are bound unto; and without which we cannot happily converse one with another: yea and the very ground and fountain indeed of all just actions.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'He often argues that anything that happens in the world is only natural, and that it is nothing
+to grieve over, or to be scared about.
+However, I wonder why such emotions themselves cannot be seen as natural events in this world.
+Maybe he separates the physical world and the mind, where events in the physical world are
+natural consequences from its state and properties, but not so for the mind.
+I don’t think I can agree with this.
+I would say that these feelings are only natural as well and that inside feelings themselves
+should be accepted as much as the outside events around us.
+I could be misunderstanding the whole thing though, as every time I read this paragraph it gets
+a little less clear to me.',
+            },
+        },
+        section {
+            head {
+                0,
+                "XI:XXX",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    '‘As often as a father kisseth his child, he should say secretly with himself’ (said Epictetus,) ‘tomorrow perchance shall he die.’ But these words be ominous. No words ominous (said he) that signify anything that is natural: in very truth and deed not more ominous than this, ‘to cut down grapes when they are ripe.’ Green grapes, ripe grapes, dried grapes, or raisins: so many changes and mutations of one thing, not into that which was not absolutely, but rather so many several changes and mutations, not into that which hath no being at all, but into that which is not yet in being.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'It seems that Epictetus employs a method for softening the blow of people dying.
+I think that is a good thing to do but maybe not in the moment.
+Saying such things to yourself when dealing with loved ones seems to me to take some of the
+experience of the moment away as you mentally take one step back and see the bigger picture.
+He doesn’t really say that the father should do it as he kisses the child,
+but that he should do it as often as he kisses the child.
+Whether to do it in the moment or not is just a thing I was thinking about.',
+            },
+            par {
+                'When reviewing this part, reading it made me think of something that
+one of my favourite anime characters Mizunashi Akari said.
+It is also in particular about dealing with loss:',
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'Hey, Akari-chan?
+How did it feel when you parted with that wind chime?',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'I felt lonely, very lonely.
+Goodbyes are always lonely.
+That time with this wind chime and that time with Gondola-san, it was very lonely and sad.
+But, I think that is probably a good thing, Alicia-san.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'The loneliness or sadness you feel when you say goodbye to something reflects how precious it was to you.
+It’s something that will live on in you for as long as you live, that will continue to shine here on Aqua forever.
+That’s why I think someone’s sadness is proof of their happiness.',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'This is a translation of what is said in ARIA The Avvenire episode 3 from 17:39 onwards.
+Don’t mind the fluff and context that makes sense in the anime.
+Instead of preparing for the loss she focusses on valuing what is lost through the feeling of loss.
+It is good that you are sad, because that means you had something good enough to warrant being
+sad upon losing it.
+Often Aurelius employs arguments that conclude that there is no reason to feel a negative emotion.
+I think the line of reasoning would be: it is only natural that things go so don’t despair.
+Because then you would be sad about the very nature of the world.
+Akari’s position seems to be that we can accept not only the event but also the feeling that comes
+with it.
+And through that we value that what is lost.
+This comes back to my reflection on the previous excerpt (',
+                link {
+                    "#xi:xviii",
+                    "XI:XVIII",
+                    tags {
+                        "local",
+                    },
+                },
+                ').
+Both of these perspectives are of value and can be implemented in parallel.',
+            },
+            par {
+                'Following is a transcript in original Japanese.
+It is adapted from ',
+                link {
+                    "https://jimaku.cc/entry/1864",
+                    "jimaku.cc/entry/1864",
+                },
+                ' and checked against the episode for accuracy.
+I changed some of the spelling and formatting.',
+            },
+            par {
+                'ねぇ あかりちゃん？
+その夜光鈴とお別れする時、どんな気持ちだった？',
+            },
+            par {
+                '寂しかったですよ。
+ものすご～く。
+お別れはいつだって寂しいです。
+この夜光鈴の時も、ゴンドラさんの時も、すごくすごく寂しくて、悲しかったです。
+でも、それは多分、いいことなんですよ、アリシアさん。',
+            },
+            par {
+                '寂ければ寂しいほど、悲しければ悲しいほど。
+それは大好きな存在だったからなんです。
+これは一生物だって思える…
+このアクアで、きらきら輝き続ける、愛おしい存在。
+だから、切ない思いもまた、幸せ者の証しなんですよ。',
+            },
+        },
+        section {
+            head {
+                0,
+                "XII:X",
+            },
+            section {
+                head {
+                    97,
+                },
+                par {
+                    'How ridiculous and strange is he, that wonders at anything that happens in this life in the ordinary course of nature!',
+                },
+                tags {
+                    "blockquote",
+                },
+            },
+            par {
+                'Is it not wonderful to wonder? 不思議!',
+            },
+        },
+    },
+    section {
+        head {
+            0,
+            "Conclusion",
+        },
+        par {
+            'The main points I took from this text are:',
+        },
+        par {
+            list {
+                il,
+                par {
+                    'You may not be able to control the outside world, but you can control your inside world.',
+                },
+                par {
+                    'What is good and bad is a matter of opinion and can be changed.',
+                },
+                par {
+                    'You must maintain your good nature by doing good.',
+                },
+                par {
+                    'You must be good to others and your environment.',
+                },
+                par {
+                    'Change is constant and natural and you are part of the ever morphing mass that is the world.',
+                },
+                par {
+                    'Do not suffer for that which is not worth suffering for.',
+                },
+                par {
+                    'Do not despair about the natural goings of the world.',
+                },
+            },
+            'Themes seem to be change, death, suffering, virtue and social dealings / humanity.',
+        },
+        par {
+            'I don’t think that this is a book of mind bending positions or radical thoughts.
+Neither of grand narratives or deep theories.
+But it presents many good reminders.
+Most of the time when I could make sense of the writing, it seemed quite solid.
+All put together it certainly has a style, a cohesive vibe.
+I think it is a book that is worth reading, and one that can influence you positively.
+Many of the themes and points he makes are still very relevant and applicable to our contemporary lives.
+Of course there are some critiques I make here and there.
+And I do not understand everything that is presented.
+Following are two gripes and confusions I have with this work:',
+        },
+        section {
+            head {
+                0,
+                "Evil",
+            },
+            par {
+                'Many times he says that what seems negative to us is a matter of our own opinion,
+and that opinion can be changed.
+And that this opinion is what makes us suffer, not the “bad” event itself.
+However, he also seems to speak of evil, true evil even (',
+                link {
+                    "#ix:xiv",
+                    "IX:XIV",
+                    tags {
+                        "local",
+                    },
+                },
+                ').
+Is this evil then not also a figment of our opinion?
+And if there is true evil, what makes this evil so real and bad,
+and all those bad things in our head only bad through our misguided opinions?
+This is very confusing to me.',
+            },
+        },
+        section {
+            head {
+                0,
+                "Feelings",
+            },
+            par {
+                'It seems to be a common theme that the way of dealing with negative feelings is to find an
+explanation as to why it is not so bad.
+Usually of the flavour that an event is only natural with the focus on accepting worldly changes.
+I would not reduce stoicism to “not so bad, don’t be sad” but sometimes Aurelius does
+come close to that at times.
+With all the accepting of what happens in the outer world, he doesn’t seem to put the same emphasis
+on accepting what happens in the inner world.
+I’m still not sure if he thinks of emotions that have come up as events in a world as well,
+or if the spirit is different in this regard.
+Since you often cannot change what happens in the world, focusing on accepting future events
+makes sense.
+Since you do have more control over what you think (and feel to some extend),
+it makes sense that he focuses more on changing future experience.
+However I think a little attention to accepting negative experiences would be good as well.
+Of course, with this position I might be going against one of stoicisms premier principles.
+Furthermore, he very much seems to like reducing negative experiences and not
+increasing positive experiences.
+To me this seems similar to how Buddhist think about it.
+I’m not convinced yet that it is best to only do away with suffering and not to seek any pleasure.
+I don’t think Aurelius says such a thing directly but he seems to think in that direction.',
+            },
+        },
+    },
+},

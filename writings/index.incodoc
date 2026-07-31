@@ -1,11 +1,11 @@
 props {
-    ("lang", "en"),
-    ("generator", "incodoc-ssg"),
-    ("initial-version-date", "2026-03-28 Sat"),
-    ("version", "0.1.0"),
     ("author", "Cody Bloemhard"),
-    ("date-rfc2822", "Sat, 28 Mar 2026 22:48:12 +0100"),
-    ("date-unix", "1774734492"),
+    ("initial-version-date", "2026-03-28 Sat"),
+    ("date-unix", "1785532548"),
+    ("version", "0.2.0"),
+    ("generator", "incodoc-ssg"),
+    ("lang", "en"),
+    ("date-rfc2822", "Fri, 31 Jul 2026 23:15:48 +0200"),
 },
 section {
     head {
@@ -32,6 +32,17 @@ last wrote about that something.',
         par {
             list {
                 il,
+                par {
+                    'My reading of ',
+                    link {
+                        "./reading/the-meditations.incodoc",
+                        "Marcus Aurelius’ The Meditations",
+                        tags {
+                            "local",
+                        },
+                    },
+                    '.',
+                },
                 par {
                     'On ',
                     link {
@@ -66,7 +77,7 @@ last wrote about that something.',
                     '.',
                 },
                 par {
-                    'My personal opinion on ',
+                    'My opinion on ',
                     link {
                         "./misc/fountainpen-inks.incodoc",
                         "fountain pen inks",
